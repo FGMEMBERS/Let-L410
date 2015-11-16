@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <light-source>
+    
+    <!-- Name is good -->
+    <name>Light source</name>
+    <!--
+      Main switch. 1 - light source on, 0 - off. You may use some like 
+      <switch-prop>/mymodel/switches/landing-light-switch</switch-prop>
+      for control of light from script or insrument.
+    -->       
+    <switch>0</switch>
+
+    <!--
+      Coordinates section. 
+    -->
+    <longitude-deg-prop>/position/longitude-deg</longitude-deg-prop>
+    <latitude-deg-prop>/position/latitude-deg</latitude-deg-prop>
+    <elevation-ft-prop>/position/altitude-ft</elevation-ft-prop>
+    <roll-deg-prop>/orientation/roll-deg</roll-deg-prop>
+    <pitch-deg-prop>/orientation/pitch-deg</pitch-deg-prop>
+    <heading-deg-prop>/orientation/heading-deg</heading-deg-prop>
+    <!--
+      You may set static source. Example for UNNT:
+    -->
+    <!--
+    <longitude-deg>82.67826885</longitude-deg>
+    <latitude-deg>55.01513456</latitude-deg>
+    <elevation-ft>354.0</elevation-ft>
+       
+    <roll-deg>0.0</roll-deg>
+    <pitch-deg>0.0</pitch-deg>
+    <heading-deg>262.0</heading-deg>
+    -->
+    <!--       
+      Frustum parameters. 
+      if you want omnidirectional light, use <cutoff>180</cutoff>
+      Cutoff - value of angle of light frustum (0-180), exponent - spread light in spot. In degrees.
+    -->       
+    <cutoff>20</cutoff>
+    <exponent>10.0</exponent>
+    <!--
+      Attenuation parameters. OpenGL count attenuation of spot light:
+      attenuation = 1/(constant + linear*distance + quadratic*distance^2)
+    -->   
+    <constant>0.1</constant>
+    <linear>0.0</linear>
+    <quadratic>0.000003</quadratic>
+    <!--
+      Offset of light source, relative center(lat-long-alt). 
+      For you convience, you may set position in meters additional.
+    -->       
+    <center-x>-3.0</center-x>
+    <center-y> 0.0</center-y>
+    <center-z>-0.9</center-z>
+    <!--
+      Directional. Like offset, it's additional way to set light direction.
+    -->
+    <axis-x>-1.00</axis-x>
+    <axis-y> 0.00</axis-y>
+    <axis-z>-0.05</axis-z>
+    <!--
+      You may set color of light.
+      It's commented, cause default values is good for landing light.
+    -->
+    <ambient-r>0.2</ambient-r>
+    <ambient-g>0.2</ambient-g>
+    <ambient-b>0.2</ambient-b>
+
+    <specular-r>1.0</specular-r>
+    <specular-g>1.0</specular-g>
+    <specular-b>1.0</specular-b>
+
+    <diffuse-r>1.0</diffuse-r>
+    <diffuse-g>1.0</diffuse-g>
+    <diffuse-b>1.0</diffuse-b>
+                 
+  </light-source>
+  
+  <light-source>
+    
+    <!-- Name is good -->
+    <name>Light source</name>
+    <!--
+      Main switch. 1 - light source on, 0 - off. You may use some like 
+      <switch-prop>/mymodel/switches/landing-light-switch</switch-prop>
+      for control of light from script or insrument.
+    -->       
+    <switch>0</switch>
+
+    <!--
+      Coordinates section. 
+    -->
+    <longitude-deg-prop>/position/longitude-deg</longitude-deg-prop>
+    <latitude-deg-prop>/position/latitude-deg</latitude-deg-prop>
+    <elevation-ft-prop>/position/altitude-ft</elevation-ft-prop>
+    <roll-deg-prop>/orientation/roll-deg</roll-deg-prop>
+    <pitch-deg-prop>/orientation/pitch-deg</pitch-deg-prop>
+    <heading-deg-prop>/orientation/heading-deg</heading-deg-prop>
+    <!--
+      You may set static source. Example for UNNT:
+    -->
+    <!--
+    <longitude-deg>82.67826885</longitude-deg>
+    <latitude-deg>55.01513456</latitude-deg>
+    <elevation-ft>354.0</elevation-ft>
+       
+    <roll-deg>0.0</roll-deg>
+    <pitch-deg>0.0</pitch-deg>
+    <heading-deg>262.0</heading-deg>
+    -->
+    <!--       
+      Frustum parameters. 
+      if you want omnidirectional light, use <cutoff>180</cutoff>
+      Cutoff - value of angle of light frustum (0-180), exponent - spread light in spot. In degrees.
+    -->       
+    <cutoff>90</cutoff>
+    <exponent>1.0</exponent>
+    <!--
+      Attenuation parameters. OpenGL count attenuation of spot light:
+      attenuation = 1/(constant + linear*distance + quadratic*distance^2)
+    -->   
+    <constant>0.1</constant>
+    <linear>0.0</linear>
+    <quadratic>0.00003</quadratic>
+    <!--
+      Offset of light source, relative center(lat-long-alt). 
+      For you convience, you may set position in meters additional.
+    -->       
+    <center-x>-3.5</center-x>
+    <center-y>0.0</center-y>
+    <center-z>-0.9</center-z>
+    <!--
+      Directional. Like offset, it's additional way to set light direction.
+    -->
+    <axis-x>-0.2</axis-x>
+    <axis-y> 0.0</axis-y>
+    <axis-z>-0.8</axis-z>
+    <!--
+      You may set color of light.
+      It's commented, cause default values is good for landing light.
+    -->
+    <ambient-r>0.6</ambient-r>
+    <ambient-g>0.6</ambient-g>
+    <ambient-b>0.6</ambient-b>
+
+    <specular-r>0.9</specular-r>
+    <specular-g>0.9</specular-g>
+    <specular-b>0.9</specular-b>
+
+    <diffuse-r>0.9</diffuse-r>
+    <diffuse-g>0.9</diffuse-g>
+    <diffuse-b>0.9</diffuse-b>
+              
+  </light-source>
+  
+  <light-source>
+    <!-- Name is good -->
+    <name>Light source</name>
+    <!--
+      Main switch. 1 - light source on, 0 - off. You may use some like 
+      <switch-prop>/mymodel/switches/landing-light-switch</switch-prop>
+      for control of light from script or insrument.
+    -->       
+    <switch>0</switch>
+
+    <!--
+      Coordinates section. 
+    -->
+    <longitude-deg-prop>/position/longitude-deg</longitude-deg-prop>
+    <latitude-deg-prop>/position/latitude-deg</latitude-deg-prop>
+    <elevation-ft-prop>/position/altitude-ft</elevation-ft-prop>
+    <roll-deg-prop>/orientation/roll-deg</roll-deg-prop>
+    <pitch-deg-prop>/orientation/pitch-deg</pitch-deg-prop>
+    <heading-deg-prop>/orientation/heading-deg</heading-deg-prop>
+    <!--
+      You may set static source. Example for UNNT:
+    -->
+    <!--
+    <longitude-deg>82.67826885</longitude-deg>
+    <latitude-deg>55.01513456</latitude-deg>
+    <elevation-ft>354.0</elevation-ft>
+       
+    <roll-deg>0.0</roll-deg>
+    <pitch-deg>0.0</pitch-deg>
+    <heading-deg>262.0</heading-deg>
+    -->
+    <!--       
+      Frustum parameters. 
+      if you want omnidirectional light, use <cutoff>180</cutoff>
+      Cutoff - value of angle of light frustum (0-180), exponent - spread light in spot. In degrees.
+    -->       
+    <cutoff>20</cutoff>
+    <exponent>10.0</exponent>
+    <!--
+      Attenuation parameters. OpenGL count attenuation of spot light:
+      attenuation = 1/(constant + linear*distance + quadratic*distance^2)
+    -->     
+    <constant>0.1</constant>
+    <linear>0.01</linear>
+    <quadratic>0.000003</quadratic>
+    <!--
+      Offset of light source, relative center(lat-long-alt). 
+      For you convience, you may set position in meters additional.
+    -->       
+    <center-x>-3.0</center-x>
+    <center-y> 0.0</center-y>
+    <center-z>-0.9</center-z>
+    <!--
+      Directional. Like offset, it's additional way to set light direction.
+    -->
+    <axis-x>-1.00</axis-x>
+    <axis-y> 0.00</axis-y>
+    <axis-z>-0.05</axis-z>
+    <!--
+      You may set color of light.
+      It's commented, cause default values is good for landing light.
+    -->
+    <ambient-r>0.1</ambient-r>
+    <ambient-g>0.1</ambient-g>
+    <ambient-b>0.1</ambient-b>
+
+    <specular-r>0.1</specular-r>
+    <specular-g>0.1</specular-g>
+    <specular-b>0.1</specular-b>
+
+    <diffuse-r>0.1</diffuse-r>
+    <diffuse-g>0.1</diffuse-g>
+    <diffuse-b>0.1</diffuse-b>
+                 
+  </light-source>
+        
+</PropertyList>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>inttour</object-name>
+    <object-name>inttourporte</object-name>
+    <object-name>intporte</object-name>
+    <object-name>intportesoute1</object-name>
+    <object-name>intportesoute2</object-name>
+    <object-name>marche</object-name>
+    <object-name>cloison</object-name>
+    <object-name>affiche</object-name>
+    <object-name>afficheOFF</object-name>
+    <object-name>afficheON</object-name>
+
+    <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+    <object-name>intportevitre</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Let-L410/Models/Effects/Glass/glass</inherits-from>
+    <object-name>intvitres</object-name>
+    <object-name>intportevitre</object-name>
+  </effect>
+  
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>vitres</object-name>
+    <object-name>vitreporte</object-name>
+    <object-name>vitreslampes</object-name>
+    <object-name>propblurG</object-name>
+    <object-name>propblurD</object-name>
+    <object-name>propdiscG</object-name>
+    <object-name>propdiscD</object-name>
+  </effect>
+  
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -4.473 </x-m>
+      <y-m> -0.448 </y-m>
+      <z-m>  0.034 </z-m>
+    </offsets>
+  </model>
+
+  <!-- All Seats -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Seats/all-seats.xml</path>
+  </model>
+
+  <!-- Tableau de bord -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -4.933 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.136 </z-m>
+    </offsets>
+  </model>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>marche</object-name>
+    <property>instrumentation/doors/crew/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> -145 </dep></entry>
+      <entry><ind> 0.5 </ind><dep> -145 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>    0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m>  0.665 </x-m>
+      <y-m> -0.865 </y-m>
+      <z-m> -0.786 </z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <!-- Portes de la soute -->
+  <animation>
+    <type>pick</type>
+    <object-name>intportesoute1</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>intportesoute1</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> -170 </factor>
+    <center>
+      <x-m> -0.109 </x-m>
+      <y-m> -1.049 </y-m>
+      <z-m> -0.062 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>intportesoute2</object-name>
+    <object-name>inttourporte</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.passenger.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>intportesoute2</object-name>
+    <object-name>inttourporte</object-name>
+    <property>sim/model/door-positions/passenger/position-norm</property>
+    <factor> -100 </factor>
+    <center>
+      <x-m>  0.601 </x-m>
+      <y-m> -0.866 </y-m>
+      <z-m>  0.705 </z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <!--Fasten seat belts-->
+  <animation>
+    <type>select</type>
+    <object-name>afficheOFF</object-name>
+    <condition>
+      <greater-than>
+        <property>/systems/electrical/outputs/seat-belts</property>
+        <value>10</value>
+      </greater-than>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>afficheON</object-name>
+    <condition>
+      <less-than>
+        <property>/systems/electrical/outputs/seat-belts</property>
+        <value>10</value>
+      </less-than>
+    </condition>
+  </animation>
+
+</PropertyList>

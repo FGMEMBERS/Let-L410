@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>throttle.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>base</object-name>
+    <object-name>leverleft</object-name>
+    <object-name>leverright</object-name>
+    <object-name>leverfix</object-name>
+    <object-name>reverse</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>leverleft</object-name>
+    <property>controls/engines/engine[0]/throttle</property>
+    <factor> -45 </factor>
+    <offset-deg> 16 </offset-deg>
+    <min-deg> -40 </min-deg>
+    <max-deg>  40 </max-deg>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>leverright</object-name>
+    <property>controls/engines/engine[1]/throttle</property>
+    <factor> -45 </factor>
+    <offset-deg> 16 </offset-deg>
+    <min-deg> -40 </min-deg>
+    <max-deg>  40 </max-deg>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>reverse</object-name>
+    <property>controls/engines/reverser-lock</property>
+    <factor> 135 </factor>
+    <center>
+      <x-m>  0.03986 </x-m>
+      <y-m> -0.01006 </y-m>
+      <z-m>  0.11150 </z-m>
+    </center>
+    <axis>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
+    </axis>
+  </animation> 
+
+</PropertyList>
+

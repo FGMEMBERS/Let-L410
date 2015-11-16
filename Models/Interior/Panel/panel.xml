@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+    <object-name>panel2</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- Overhead -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Overhead/overhead.xml</path>
+  </model>
+
+  <!-- Pedestal -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Pedestal/pedestal.xml</path>
+  </model>
+
+  <!-- Pedal -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Pedals/all-pedals.xml</path>
+  </model>
+
+  <!-- Yokes -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Yokes/all-yokes.xml</path>
+  </model>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.013 </x-m>
+      <y-m> -0.353 </y-m>
+      <z-m>  0.093 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> 0.013 </x-m>
+      <y-m> 0.353 </y-m>
+      <z-m> 0.093 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/hsi/hsi.xml</path>
+    <offsets>
+      <x-m>  0.013 </x-m>
+      <y-m> -0.353 </y-m>
+      <z-m> -0.018 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/hsi/hsi.xml</path>
+    <offsets>
+      <x-m>  0.013 </x-m>
+      <y-m>  0.353 </y-m>
+      <z-m> -0.018 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.008 </x-m>
+      <y-m> -0.256 </y-m>
+      <z-m>  0.101 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> 0.008 </x-m>
+      <y-m> 0.450 </y-m>
+      <z-m> 0.101 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.010 </x-m>
+      <y-m> -0.256 </y-m>
+      <z-m>  0.016 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> 0.010 </x-m>
+      <y-m> 0.450 </y-m>
+      <z-m> 0.016 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.009 </x-m>
+      <y-m> -0.450 </y-m>
+      <z-m>  0.101 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> 0.009 </x-m>
+      <y-m> 0.256 </y-m>
+      <z-m> 0.101 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- GearFlaps -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/GearFlaps/gearflaps.xml</path>
+    <offsets>
+      <x-m>  0.039 </x-m>
+      <y-m>  0.819 </y-m>
+      <z-m> -0.221 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Hydrolic -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/Hydrolic/hydrolic.xml</path>
+    <offsets>
+      <x-m>  0.435 </x-m>
+      <y-m>  0.856 </y-m>
+      <z-m> -0.636 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Nozzles -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/Nozzles/nozzles.xml</path>
+    <offsets>
+      <x-m> 0.039 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.159 </z-m>
+    </offsets>
+  </model>
+
+  <!--heating levers-->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/Heating/heating-sw.xml</path>
+    <offsets>
+      <x-m>  0.008847 </x-m>
+      <y-m> -0.887360 </y-m>
+      <z-m> -0.163030 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/Heating/ventilation-sw.xml</path>
+    <offsets>
+      <x-m>  0.008847 </x-m>
+      <y-m> -0.849070 </y-m>
+      <z-m> -0.163030 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/Heating/windshield-sw.xml</path>
+    <offsets>
+      <x-m>  0.008847 </x-m>
+      <y-m> -0.781730 </y-m>
+      <z-m> -0.163030 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/Heating/air-sw.xml</path>
+    <offsets>
+      <x-m>  0.008847 </x-m>
+      <y-m> -0.744410 </y-m>
+      <z-m> -0.163030 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/Table/table.xml</path>
+    <offsets>
+      <x-m>  0.32731 </x-m>
+      <y-m>  0.97748 </y-m>
+      <z-m> -0.17635 </z-m>
+      <heading-deg> 6.45 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Instruments/Deic/deic.xml</path>
+    <offsets>
+      <x-m>  0.04264 </x-m>
+      <y-m>  0.80316 </y-m>
+      <z-m> -0.07845 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>

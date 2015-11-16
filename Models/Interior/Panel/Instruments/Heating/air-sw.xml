@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>manette.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>manette</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <animation> 
+    <type>material</type>
+    <object-name>manette</object-name>
+    <emission> 
+      <factor-prop>/instrumentation/lights/control-panel-intensity</factor-prop>
+      <red>   0.05</red>
+      <green> 0.05</green>
+      <blue>  0.05</blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>manette</object-name>
+    <property>/controls/heating/air-sw</property>
+    <factor> -5.8 </factor>
+    <offset-deg> 27 </offset-deg>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>covers.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>cov1m</object-name>
+    <object-name>cov2m</object-name>
+    <object-name>cov3m</object-name>
+    <object-name>cov4m</object-name>
+    <object-name>cov5m</object-name>
+    <object-name>covf1</object-name>
+    <object-name>covf2</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>cov1m</object-name>
+    <object-name>cov2m</object-name>
+    <object-name>cov3m</object-name>
+    <object-name>cov4m</object-name>
+    <object-name>cov5m</object-name>   
+    <transparency>
+      <offset> 1 </offset>
+      <factor> 0 </factor>
+      <max> 0.9999 </max> 
+      <alpha-prop>/surface/ice/wind-shield-lh</alpha-prop>
+    </transparency>
+  </animation>
+
+</PropertyList>
+

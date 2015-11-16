@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>gearflaps.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>gearflaps</object-name>
+    <object-name>parking_brake</object-name>
+    <object-name>emerg_gear</object-name>
+    <object-name>emerg_flaps</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!--lever box-->
+  <animation>
+    <type>rotate</type>
+    <object-name>parking_brake</object-name>
+    <property>/controls/gear/parking-brake-cmd</property>
+    <factor> -75 </factor>
+    <offset-deg> 45 </offset-deg>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>emerg_flaps</object-name>
+    <property>/controls/switches/flaps-emergency-sw</property>
+    <factor> 70 </factor>
+    <offset-deg> -65 </offset-deg>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>emerg_gear</object-name>
+    <property>/controls/switches/gear-emergency-sw</property>
+    <factor> 70 </factor>
+    <offset-deg> -65 </offset-deg>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
+

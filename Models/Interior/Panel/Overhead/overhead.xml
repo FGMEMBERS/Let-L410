@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>overhead.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>overhead</object-name>
+    <object-name>instr1</object-name>
+    <object-name>instr2</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Overhead/Instruments/mag-compass/mag-compass.xml</path>
+    <offsets>
+      <x-m> -0.014 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.392 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>

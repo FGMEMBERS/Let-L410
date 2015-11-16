@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>gear.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>gear-base</object-name>
+    <object-name>gear-lever</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>gear-lever</object-name>
+    <property>gear/gear/position-norm</property>
+    <factor> 52 </factor>
+    <!-- <offset-deg> -12 </offset-deg> -->
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
+

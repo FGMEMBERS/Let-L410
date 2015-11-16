@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <pokus>
+    <mujnod n="0" type="bool">false</mujnod>
+    <mujnod n="1" type="bool">false</mujnod>
+    <mujnod n="2" type="bool">false</mujnod>
+    <mujnod2 type="bool">false</mujnod2>
+    <mujnod3 type="bool">false</mujnod3>
+    <mujnod4 type="bool">false</mujnod4>
+    <podnod>
+      <mujnod4 type="bool">false</mujnod4>
+    </podnod>
+  </pokus>
+  
+</PropertyList>

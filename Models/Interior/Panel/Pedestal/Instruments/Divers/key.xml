@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>key.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>key</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!--fuel lock-->
+  <animation>
+    <type>rotate</type>
+    <object-name>key</object-name>
+    <property>/controls/switches/fuel_locked</property>
+    <factor> -90 </factor>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation> 
+
+</PropertyList>
+

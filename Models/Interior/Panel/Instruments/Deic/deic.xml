@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>deic.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>fond</object-name>
+    <object-name>deic-sw</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>deic-sw</object-name>
+    <property>instrumentation/deicing/sw-auto-man</property>
+    <factor> 60 </factor>
+    <offset-deg> -30 </offset-deg>
+    <center>
+      <x-m> 0.001166 </x-m>
+      <y-m> 0.017190 </y-m>
+      <z-m> 0.002807 </z-m> 
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+ 
+  <animation>
+    <type>pick</type>
+    <object-name>deic-sw</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>property-toggle</command>
+        <property>instrumentation/deicing/sw-auto-man</property>
+      </binding>
+    </action>
+  </animation>
+
+</PropertyList>

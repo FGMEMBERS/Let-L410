@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>propellers.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>propbase</object-name>
+    <object-name>propfix</object-name>
+    <object-name>propleft</object-name>
+    <object-name>propright</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>propleft</object-name>
+    <property>controls/engines/engine[0]/propeller-pitch</property>
+    <factor>-50</factor>
+    <offset-deg> 20 </offset-deg>
+    <min-deg>   -40 </min-deg>
+    <max-deg>    40 </max-deg>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>propright</object-name>
+    <property>controls/engines/engine[0]/propeller-pitch</property>
+    <factor> -50 </factor>
+    <offset-deg> 20 </offset-deg>
+    <min-deg>   -40 </min-deg>
+    <max-deg>    40 </max-deg>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>trim-elev.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>trim-elev</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!--elevator trim kola-->
+  <animation>
+    <type>rotate</type>
+    <object-name>trim-elev</object-name>
+    <property>/controls/flight/elevator-trim</property>
+    <factor>  -200 </factor>
+    <offset-deg> 0 </offset-deg>
+    <min-deg> -400 </min-deg>
+    <max-deg>  400 </max-deg>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
+

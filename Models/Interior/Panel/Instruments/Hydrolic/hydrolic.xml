@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>hydrolic.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>hydr_lev</object-name>
+    <object-name>hydr_lev_b</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+   <!--hydraulic pump lever
+   <animation>
+     <type>rotate</type>
+     <object-name>hydr_lev</object-name>
+     <property>/instrumentation/engine/indicated-throttlel-norm</property>
+     <factor> -45 </factor>
+     <offset-deg> 10 </offset-deg>
+     <min-deg> -40 </min-deg>
+     <max-deg>  40 </max-deg>
+     <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+     </axis>
+  </animation> 
+  -->
+</PropertyList>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <!-- Pilot left -->
+  <model>
+    <name>Pleft</name>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Pedals/pedal.xml</path>
+    <offsets>
+      <x-m> -0.155 </x-m>
+      <y-m> -0.574 </y-m>
+      <z-m> -0.493 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Pilot right -->
+  <model>
+    <name>Pright</name>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Pedals/pedal.xml</path>
+    <offsets>
+      <x-m> -0.155 </x-m>
+      <y-m> -0.378 </y-m>
+      <z-m> -0.493 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Copilot left -->
+  <model>
+    <name>Cleft</name>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Pedals/pedal.xml</path>
+    <offsets>
+      <x-m> -0.155 </x-m>
+      <y-m>  0.378 </y-m>
+      <z-m> -0.493 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Copilot right -->
+  <model>
+    <name>Cright</name>
+    <path>Aircraft/Let-L410/Models/Interior/Panel/Pedals/pedal.xml</path>
+    <offsets>
+      <x-m> -0.155 </x-m>
+      <y-m>  0.574 </y-m>
+      <z-m> -0.493 </z-m>
+    </offsets>
+  </model>
+
+  <animation>
+    <type>translate</type>
+    <object-name>Pleft</object-name>
+    <object-name>Cleft</object-name>
+    <property>controls/flight/rudder</property>
+    <factor> 0.07 </factor>
+    <axis>
+      <x>  1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>Pright</object-name>
+    <object-name>Cright</object-name>
+    <property>controls/flight/rudder</property>
+    <factor> -0.07 </factor>
+    <axis>
+      <x>  1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>

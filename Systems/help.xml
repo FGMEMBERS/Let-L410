@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <title>Turbolet L410</title>
+  <key>
+    <name></name>
+    <desc>===== Engines and Propellers =====</desc>
+  </key>
+  <key>
+    <name>\ |</name>
+    <desc>Reverse/normal thrust</desc>
+  </key>
+  <key>
+    <name>F f</name>
+    <desc>Cutoff/not cutoff on Selected Engine(s)</desc>
+  </key>
+  <key>
+    <name>Ctrl + F</name>
+    <desc>Emergency Cutoff on Selected Engine(s)</desc>
+  </key>
+  <key>
+    <name>q Q</name>
+    <desc>Inc./dec. left propeller rpms</desc>
+  </key>
+  <key>
+    <name>w W</name>
+    <desc>Inc./dec. right propeller rpms</desc>
+  </key>
+  <key>
+    <name>Y I</name>
+    <desc>Manual feather LH/RH propeller </desc>
+  </key>
+  <key>
+    <name>y i</name>
+    <desc>Swich on LH/RH feather pump</desc>
+  </key>
+
+  <key>
+    <name></name>
+    <desc>===== Controls =====</desc>
+  </key>
+  <key>
+    <name>k j</name>
+    <desc>Extend/retract spoilers</desc>
+  </key>
+  <key>
+    <name>/ *</name>
+    <desc>Decrease/increase aileron trim.</desc>
+  </key>
+  <key>
+    <name>;</name>
+    <desc>Emergency flaps extension</desc>
+  </key>
+  <key>
+    <name>:</name>
+    <desc>Emergency gear extension</desc>
+  </key>
+  <key>
+    <name>e/E</name>
+    <desc>Pedal/manual steering</desc>
+  </key>
+
+  <key>
+    <name></name>
+    <desc>===== Autopilot =====</desc>
+  </key>
+  <key>
+    <name>Ctrl A</name>
+    <desc>Set altitude hold mode (ALT)</desc>
+  </key>
+  <key>
+    <name>Ctrl Q</name>
+    <desc>Switch Flight director on</desc>
+  </key>
+  <key>
+    <name>Ctrl H</name>
+    <desc>Set headig hold on</desc>
+  </key>
+  <key>
+    <name>Ctrl W</name>
+    <desc>Switch Autopilot on</desc>
+  </key>
+  <key>
+    <name>Ctrl N</name>
+    <desc>Set Nav mode on</desc>
+  </key>
+  <key>
+    <name>Ctrl G</name>
+    <desc>Set Aproach mode on</desc>
+  </key>
+  <line>It is recomanded to use a joystick and aircraft pedals for steering.</line>
+  <text>
+    Part I. - Basic flight ... without using autopilot and navigation.
+    *******************************************************************
+  
+    TAKE OFF ==========================================================
+    (All systems checked, needed systems switched on, engines running, aircraft on runway.)
+  
+     1.Switch on Automatic Feathering and Automatic Banking Control.
+     2.If indicated extend flaps "]".
+     3.Set both Propeller levers to maxinum speed.
+     4.Release brakes "B".
+     5.Increase slowly (min. 3 sec.) throttle to maximum (Joystick or ....
+     7.Monitor the increasing of N1, RPM, ITT and Torque.
+     6.When the speed reaches about 60 kts check propeller RPM (2080)
+     8.Monitor the airspeed.
+     9.When airspeed reaches about 110 kts pull slowly the (Joystick or 
+    10.Set pitch .......
+    11.Retract gear "g".
+    12.Switch off Automatic Feathering and Automatic Banking Control.
+  
+    CLIMBING ==========================================================
+    1.Set pitch for optimal climbing airspeed and pitch.
+    2.Set propeller speed in range 1800 to 2080
+  
+    CRUISING ==========================================================
+    1.After reaching the desired flightlevel, decrease pitch
+    2.Decrease throttle so, that the airspeed is
+    3.Trimm elevator for level flight. (Joystick button ......)
+  
+    APPROACH ==========================================================
+  
+    LANDING ===========================================================
+    1.Decrese throttle.
+    2.After the speed is lower then .. extend flaps "]"
+    3.Extend landing gear "G". 
+    4.Set pitch for ....
+    5.Set Propeller levers to maxinum speed.
+    6.After touchdown odklopit zarazku (=prepnout na rev)
+    7.Set throttle to idle
+    8.After Generator speed is lower than 70% set throttle lever to max. reverse
+    9.Use brakes
+  
+    TAXING ============================================================
+    9.After speed for taxing is reached, set throttle to ........
+    1.Switch steering to manual "E"
+  
+    ENGINE SHUTDOWN ===================================================
+    2.Set throttle ti idle
+    4.Cool the engine for 3 minutes
+    1.Switch of Feather pump svitch
+    set propeller level to feather
+    after 40 s stop fuel by fuel cock levers
+  
+    Part II. Instriment flight 
+    *******************************************************************
+  
+    NAVIGATION PREPARING ==============================================
+  
+    Part III. Flight using autopilot
+    *******************************************************************
+  
+    AUTOPILOP PREPARING ===============================================
+  
+    Part IV. Emergency procedures
+    *******************************************************************
+  </text>
+  
+</PropertyList>

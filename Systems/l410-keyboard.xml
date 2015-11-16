@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <keyboard>
+    
+    <key n="68">
+      <name>D</name>
+      <desc>Passenger door</desc>
+      <binding>
+        <command>nasal</command>
+        <script>doors.passenger.toggle();</script>
+      </binding>
+    </key>
+    
+    <key n="100">
+      <name>d</name>
+      <desc>Doors</desc>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </key>
+    
+    <key n="106">
+      <name>j</name>
+      <desc>Retract spoilers</desc>
+      <binding>
+        <command>property-adjust</command>
+        <property>/controls/flight/spoilers</property>
+        <min>0</min>
+        <step type="double">-1</step>
+      </binding>
+    </key>
+    
+    <key n="107">
+      <name>k</name>
+      <desc>Extend spoilers</desc>
+      <binding>
+        <command>property-adjust</command>
+        <property>/controls/flight/spoilers</property>
+        <max>1</max>
+        <step type="double">1</step>
+      </binding>
+    </key>
+    
+    <key n="70">
+      <name>F</name>
+      <desc>Cutoff on Selected Engine(s)</desc>
+      <binding> 
+        <condition>
+          <property>/sim/input/selected/engine[0]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[0]/cutoff-cmd</property>
+        <value type="bool">true</value>
+      </binding>
+      <binding>
+        <condition>
+          <property>/sim/input/selected/engine[1]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[1]/cutoff-cmd</property>
+        <value type="bool">true</value>
+      </binding>
+    </key>
+    
+    <key n="102">
+      <name>f</name>
+      <desc>Not Cutoff on Selected Engine(s)</desc>
+      <binding>
+        <condition>
+          <property>/sim/input/selected/engine[0]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[0]/cutoff-cmd</property>
+        <value type="bool">false</value>
+      </binding>
+      <binding>
+        <condition>
+          <property>/sim/input/selected/engine[0]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[0]/cutoff-emerg-cmd</property>
+        <value type="bool">false</value>
+      </binding>
+      <binding>
+        <condition>
+          <property>/sim/input/selected/engine[1]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[1]/cutoff-cmd</property>
+        <value type="int">0</value>
+      </binding>
+      <binding>
+        <condition>
+          <property>/sim/input/selected/engine[1]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[1]/cutoff-emerg-cmd</property>
+        <value type="int">0</value>
+      </binding>
+    </key>
+    
+    <key n="6">
+      <name>ctrlF</name>
+      <desc>Emergency Cutoff on Selected Engine(s)</desc>
+      <binding>
+        <condition>
+          <property>/sim/input/selected/engine[0]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[0]/cutoff-emerg-cmd</property>
+        <value type="int">1</value>
+      </binding>
+      <binding>
+        <condition>
+          <property>/sim/input/selected/engine[1]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[1]/cutoff-emerg-cmd</property>
+        <value type="int">1</value>
+      </binding>
+    </key>
+    
+    <key n="92">
+      <name>\</name>
+      <desc>Reverser on Selected Engine(s)</desc>
+      <binding>
+        <condition>
+          <property>/sim/input/selected/engine[0]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[0]/reverser</property>
+        <value type="bool">true</value>
+      </binding>
+      <binding>
+        <condition>
+          <property>/sim/input/selected/engine[1]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[1]/reverser</property>
+        <value type="bool">true</value>
+      </binding>
+      <binding>
+        <command>property-assign</command>
+        <property>/controls/engines/reverser-lock</property>
+        <value type="bool">true</value>
+      </binding>
+    </key>
+    
+    <key n="124">
+      <name>|</name>
+      <desc>Not Reverser on Selected Engine(s)</desc>
+      <binding>
+        <condition>
+          <property>/sim/input/selected/engine[0]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[0]/reverser</property>
+        <value type="bool">false</value>
+      </binding>
+      <binding>
+        <condition>
+          <property>/sim/input/selected/engine[1]</property>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[1]/reverser</property>
+        <value type="bool">false</value>
+      </binding>
+      <binding>
+        <condition>
+          <and>
+            <not>
+              <property>/controls/engines/engine[0]/reverser</property>
+            </not>
+            <not>
+              <property>/controls/engines/engine[1]/reverser</property>
+            </not>
+          </and>
+        </condition>
+        <command>property-assign</command>
+        <property>/controls/engines/reverser-lock</property>
+        <value type="bool">false</value>
+      </binding>
+    </key>
+    
+    <key n="81">
+      <name>Q</name>
+      <desc>Decrease LH propeller speed</desc>
+      <binding>
+        <command>property-adjust</command>
+        <property>/controls/engines/engine[0]/propeller-pitch-cmd</property>
+        <min>0.0</min>
+        <max>1</max>
+        <step type="double">-0.2</step>
+      </binding>
+    </key>
+    
+    <key n="87">
+      <name>W</name>
+      <desc>Decrease RH propeller speed</desc>
+      <binding>
+        <command>property-adjust</command>
+        <property>/controls/engines/engine[1]/propeller-pitch-cmd</property>
+        <min>0.0</min>
+        <max>1</max>
+        <step type="double">-0.2</step>
+      </binding>
+    </key>
+    
+    <key n="113">
+      <name>q</name>
+      <desc>Increase LH propeller speed</desc>
+      <binding>
+        <command>property-adjust</command>
+        <property>/controls/engines/engine[0]/propeller-pitch-cmd</property>
+        <min>-0.2</min>
+        <max>1</max>
+        <step type="double">0.2</step>
+      </binding>
+    </key>
+    
+    <key n="119">
+      <name>w</name>
+      <desc>Increase RH propeller speed</desc>
+      <binding>
+        <command>property-adjust</command>
+        <property>/controls/engines/engine[1]/propeller-pitch-cmd</property>
+        <min>-0.2</min>
+        <max>1</max>
+        <step type="double">0.2</step>
+      </binding>
+    </key>
+    
+    <key n="101">
+      <name>e</name>
+      <desc>Select pedal steering</desc>
+      <binding>
+        <command>property-assign</command>
+        <property>/controls/switches/full-steering-sw</property>
+        <value>0</value>
+      </binding>
+    </key>
+    
+    <key n="69">
+      <name>E</name>
+      <desc>Select manual steering</desc>
+      <binding>
+        <command>property-assign</command>
+        <property>/controls/switches/full-steering-sw</property>
+        <value>2</value>
+      </binding>
+    </key>
+    
+    <key n="47">
+      <name>slash</name>
+      <desc>Decrease aileron trim.</desc>
+      <binding>
+        <command>property-adjust</command>
+        <property>/controls/flight/aileron-trim</property>
+        <step type="double">-0.005</step>
+      </binding>
+    </key>
+    
+    <key n="42">
+      <name>asterix</name>
+      <desc>Increase aileron trim.</desc>
+      <binding>
+        <command>property-adjust</command>
+        <property>/controls/flight/aileron-trim</property>
+        <step type="double">0.005</step>
+      </binding>
+    </key>
+    
+    <key n="89">
+      <name>Y</name>
+      <desc>Manual feather LH propeller</desc>
+      <binding>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[0]/propeller-pitch-cmd</property>
+        <value type="double">-0.2</value>
+      </binding>
+    </key>
+    
+    <key n="73">
+      <name>I</name>
+      <desc>Manual feather RH propeller</desc>
+      <binding>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[1]/propeller-pitch-cmd</property>
+        <value type="double">-0.2</value>
+      </binding>
+    </key>
+    
+    <key n="121">
+      <name>y</name>
+      <desc>Swich on LH feather pump</desc>
+      <binding>
+        <command>property-assign</command>
+        <property>/controls/switches/prop-feat1-sw</property>
+        <value type="bool">true</value>
+      </binding>
+    </key>
+    
+    <key n="105">
+      <name>i</name>
+      <desc>Switch on RH feather pump</desc>
+      <binding>
+        <command>property-assign</command>
+        <property>/controls/switches/prop-feat2-sw</property>
+        <value type="bool">true</value>
+      </binding>
+    </key>
+    
+    <key n="59">
+      <name>;</name>
+      <desc>Emergency flaps extension</desc>
+      <binding>
+        <command>property-toggle</command>
+        <property>/controls/switches/flaps-emergency-sw</property>
+      </binding>
+    </key>
+    
+    <key n="58">
+      <name>:</name>
+      <desc>Emergency gear extension</desc>
+      <binding>
+        <command>property-toggle</command>
+        <property>/controls/switches/gear-emergency-sw</property>
+      </binding>
+    </key>
+    
+    <!-- autopilot -->
+    <key n="1">
+      <name>Ctrl-A</name>
+      <desc>ALT</desc>
+      <binding>
+        <command>nasal</command>
+        <script>l410autopilot.alt_btn()</script>
+      </binding>
+    </key>
+    
+    <key n="17">
+      <name>Ctrl-Q</name>
+      <desc>FD</desc>
+      <binding>
+        <command>nasal</command>
+        <script>l410autopilot.fd_btn()</script>
+      </binding>
+    </key>
+    
+    <key n="8">
+      <name>Ctrl-H</name>
+      <desc>HDG</desc>
+      <binding>
+        <command>nasal</command>
+        <script>l410autopilot.hdg_btn()</script>
+      </binding>
+    </key>
+    
+    <key n="23">
+      <name>Ctrl-W</name>
+      <desc>AP</desc>
+      <binding>
+        <command>nasal</command>
+        <script>l410autopilot.ap_btn()</script>
+      </binding>
+    </key>
+    
+    <key n="14">
+      <name>Ctrl-N</name>
+      <desc>NAV</desc>
+      <binding>
+        <command>nasal</command>
+        <script>l410autopilot.nav_btn()</script>
+      </binding>
+    </key>
+    
+    <key n="7">
+      <name>Ctrl-G</name>
+      <desc>APR</desc>
+      <binding>
+        <command>nasal</command>
+        <script>l410autopilot.apr_btn()</script>
+      </binding>
+    </key>
+    
+    <key n="25">
+      <name>Ctrl-Y</name>
+      <desc>YD</desc>
+      <binding>
+        <command>nasal</command>
+        <script>l410autopilot.yd_btn()</script>
+      </binding>
+    </key>
+    
+    <key n="11">
+      <name>Ctrl-K</name>
+      <desc>HB</desc>
+      <binding>
+        <command>nasal</command>
+        <script>l410autopilot.hb_btn()</script>
+      </binding>
+    </key>
+    
+    <key n="4">
+      <name>ctrl d</name>
+      <desc>steps rear</desc>
+      <binding>
+        <condition>
+          <and>
+            <greater-than>
+              <property>/surface-positions/door-rear-pos-norm</property>
+              <value>0.8</value>
+            </greater-than>
+            <equals>
+              <property>/controls/doorr-cmd-norm</property>
+              <value>1</value>
+            </equals>
+          </and>
+        </condition>
+        <command>property-toggle</command>
+        <property>/controls/steps-cmd-norm</property>
+      </binding>
+    </key>
+    
+    <key n="40">
+      <name>(</name>
+      <desc>cover fron left</desc>
+      <binding>
+        <command>property-toggle</command>
+        <property>/controls/doorfl-cmd-norm</property>
+      </binding>
+    </key>
+    
+    <key n="41">
+      <name>)</name>
+      <desc>cover fron right</desc>
+      <binding>
+        <command>property-toggle</command>
+        <property>/controls/doorfr-cmd-norm</property>
+      </binding>
+    </key>
+    
+    <key n="96">
+      <name>`</name>
+      <desc>Autopilot CWS</desc>
+      <binding>
+        <command>nasal</command>
+        <script>l410autopilot.cws_btn()</script>
+      </binding>
+      <mod-up>
+        <binding>
+          <command>nasal</command>
+          <script>l410autopilot.cws_btn_modup()</script>
+        </binding>
+      </mod-up>
+    </key>
+    
+    <!-- basic control -->
+    <key n="52">
+      <name>4</name>
+      <desc>Move aileron left (or adjust AP heading.)</desc>
+      <repeatable type="bool">true</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>
+          l410control.incAileron(-0.05, -1.0)
+        </script>
+      </binding>
+      <mod-shift>
+        <desc>Look left.</desc>
+        <binding>
+          <command>property-assign</command>
+          <property>/sim/current-view/goal-heading-offset-deg</property>
+          <property>/sim/view/config/left-direction-deg</property>
+        </binding>
+      </mod-shift>
+    </key>
+    
+    <key n="53">
+      <name>5</name>
+      <desc>Center aileron, elevator, and rudder.</desc>
+      <binding>
+        <command>nasal</command>
+        <script>l410control.centerFlightControls()</script>
+      </binding>
+    </key>
+    
+    <key n="54">
+      <name>6</name>
+      <desc>Move aileron right (or adjust AP heading.)</desc>
+      <repeatable type="bool">true</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>
+          l410control.incAileron(0.05, 1.0)
+        </script>
+      </binding>
+      <mod-shift>
+        <desc>Look right.</desc>
+        <binding>
+          <command>property-assign</command>
+          <property>/sim/current-view/goal-heading-offset-deg</property>
+          <property>/sim/view/config/right-direction-deg</property>
+        </binding>
+      </mod-shift>
+    </key>
+    
+    <key n="56">
+      <name>8</name>
+      <desc>Decrease elevator or autopilot altitude.</desc>
+      <repeatable type="bool">true</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>
+          l410control.incElevator(0.05, -100)
+        </script>
+      </binding>
+      <mod-shift>
+        <desc>Look forward.</desc>
+        <binding>
+          <command>property-assign</command>
+          <property>/sim/current-view/goal-heading-offset-deg</property>
+          <property>/sim/view/config/front-direction-deg</property>
+        </binding>
+      </mod-shift>
+    </key>
+    
+    <key n="50">
+      <name>2</name>
+      <desc>Increase elevator or autopilot altitude.</desc>
+      <repeatable type="bool">true</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>
+          l410control.incElevator(-0.05, 100)
+        </script>
+      </binding>
+      <mod-shift>
+        <desc>Look back.</desc>
+        <binding>
+          <command>property-assign</command>
+          <property>/sim/current-view/goal-heading-offset-deg</property>
+          <property>/sim/view/config/back-direction-deg</property>
+        </binding>
+      </mod-shift>
+    </key>
+    
+    <key n="356">
+      <name>Left</name>
+      <desc>Move aileron left (or adjust AP heading.)</desc>
+      <repeatable type="bool">true</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>
+          l410control.incAileron(-0.05, -1.0)
+        </script>
+      </binding>
+      <mod-shift>
+        <desc>Look left.</desc>
+        <binding>
+          <command>property-assign</command>
+          <property>/sim/current-view/goal-heading-offset-deg</property>
+          <property>/sim/view/config/left-direction-deg</property>
+        </binding>
+      </mod-shift>
+    </key>
+    
+    <key n="357">
+      <name>Up</name>
+      <desc>Increase elevator or autopilot altitude.</desc>
+      <repeatable type="bool">true</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>
+          l410control.incElevator(0.05, -100)
+        </script>
+      </binding>
+      <mod-shift>
+        <desc>Look forward.</desc>
+        <binding>
+          <command>property-assign</command>
+          <property>/sim/current-view/goal-heading-offset-deg</property>
+          <property>/sim/view/config/front-direction-deg</property>
+        </binding>
+      </mod-shift>
+    </key>
+    
+    <key n="358">
+      <name>Right</name>
+      <desc>Move aileron right (or adjust AP heading.)</desc>
+      <repeatable type="bool">true</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>
+          l410control.incAileron(0.05, 1.0)
+        </script>
+        <step type="double">0.05</step>
+      </binding>
+      <mod-shift>
+        <desc>Look right.</desc>
+        <binding>
+          <command>property-assign</command>
+          <property>/sim/current-view/goal-heading-offset-deg</property>
+          <property>/sim/view/config/right-direction-deg</property>
+        </binding>
+      </mod-shift>
+    </key>
+    
+    <key n="359">
+      <name>Down</name>
+      <desc>Decrease elevator or autopilot altitude.</desc>
+      <repeatable type="bool">true</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>
+          l410control.incElevator(-0.05, 100)
+        </script>
+      </binding>
+      <mod-shift>
+        <desc>Look backwards.</desc>
+        <binding>
+          <command>property-assign</command>
+          <property>/sim/current-view/goal-heading-offset-deg</property>
+          <property>/sim/view/config/back-direction-deg</property>
+        </binding>
+      </mod-shift>
+    </key>
+    
+  </keyboard>
+  
+</PropertyList>
