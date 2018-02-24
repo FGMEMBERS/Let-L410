@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -960,5 +960,35 @@
       <z> 0 </z>
     </axis>
   </animation>
+
+    <model>
+        <path>Aircraft/Generic/Effects/tyre-smoke-nose.xml</path>
+        <name>tyre-smoke-n</name>
+        <offsets>
+            <x-m>-4.74687</x-m>
+            <y-m>0</y-m>
+            <z-m>-1.71991</z-m>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Aircraft/Generic/Effects/tyre-smoke-port.xml</path>
+        <name>tyre-smoke-p</name>
+        <offsets>
+            <x-m>-1.14709</x-m>
+            <y-m>-1.77584</y-m>
+            <z-m>-1.77289</z-m>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Aircraft/Generic/Effects/tyre-smoke-stbd.xml</path>
+        <name>tyre-smoke-s</name>
+        <offsets>
+            <x-m>-1.14709</x-m>
+            <y-m>1.77584</y-m>
+            <z-m>-1.77289</z-m>
+        </offsets>
+    </model>
 
 </PropertyList>

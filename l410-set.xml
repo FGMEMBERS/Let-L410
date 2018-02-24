@@ -106,5 +106,8 @@ embaranger@free.fr
             <file>Aircraft/Let-L410/Nasal/liveries.nas</file>
             <file>Aircraft/Let-L410/Nasal/immat.nas</file>
         </l410>
+        <tyresmoke>
+            <file>Aircraft/Let-L410/Nasal/tyresmoke.nas</file>
+        </tyresmoke>
     </nasal>
 </PropertyList>
