@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -30,9 +30,9 @@
     <object-name>VORneedle</object-name>
     <object-name>ADFneedle</object-name>
     <emission>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+      <red>0.50</red>
+      <green>0.25</green>
+      <blue>0.25</blue>
       <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
     </emission>
   </animation>
@@ -42,9 +42,9 @@
     <object-name>RMI.compass</object-name>
     <property>orientation/heading-magnetic-deg</property>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -53,9 +53,9 @@
     <object-name>VORneedle</object-name>
     <property>orientation/heading-deg</property>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -64,9 +64,9 @@
     <object-name>VORneedle</object-name>
     <property>instrumentation/nav/heading-deg</property>
     <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -75,9 +75,9 @@
     <object-name>ADFneedle</object-name>
     <property>instrumentation/adf/indicated-bearing-deg</property>
     <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 

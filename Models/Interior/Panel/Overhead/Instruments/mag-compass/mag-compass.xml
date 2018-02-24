@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -22,9 +22,9 @@
     <object-name>Ring</object-name>
     <emission>
       <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+      <red>0.50</red>
+      <green>0.25</green>
+      <blue>0.25</blue>
     </emission>
   </animation>
   
@@ -33,9 +33,9 @@
     <object-name>Ring</object-name>
     <property>/instrumentation/magnetic-compass/indicated-heading-deg</property>
     <axis>
-      <x> 0 </x>
-      <y> 0 </y>
-      <z> 1 </z>
+      <x>0</x>
+      <y>0</y>
+      <z>1</z>
     </axis>
   </animation>
 

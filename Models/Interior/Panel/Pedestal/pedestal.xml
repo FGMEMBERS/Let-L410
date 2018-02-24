@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -15,9 +15,9 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Panel/Pedestal/Instruments/Trims/trim-elev.xml</path>
     <offsets>
-      <x-m>  0.11493 </x-m>
-      <y-m> -0.16619 </y-m>
-      <z-m> -0.24653 </z-m>
+      <x-m>0.11493</x-m>
+      <y-m>-0.16619</y-m>
+      <z-m>-0.24653</z-m>
     </offsets>
   </model>
 
@@ -25,9 +25,9 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Panel/Pedestal/Instruments/Trims/trim-elev.xml</path>
     <offsets>
-      <x-m>  0.11493 </x-m>
-      <y-m>  0.16619 </y-m>
-      <z-m> -0.24653 </z-m>
+      <x-m>0.11493</x-m>
+      <y-m>0.16619</y-m>
+      <z-m>-0.24653</z-m>
     </offsets>
   </model>
 
@@ -35,10 +35,10 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Panel/Pedestal/Instruments/Gears/gear.xml</path>
     <offsets>
-      <x-m>  0.54505 </x-m>
-      <y-m> -0.15278 </y-m>
-      <z-m> -0.25176 </z-m>
-      <pitch-deg>   35 </pitch-deg>
+      <x-m>0.54505</x-m>
+      <y-m>-0.15278</y-m>
+      <z-m>-0.25176</z-m>
+      <pitch-deg>35</pitch-deg>
     </offsets>
   </model>
 
@@ -46,10 +46,10 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Panel/Pedestal/Instruments/Flaps/flaps.xml</path>
     <offsets>
-      <x-m>  0.54537 </x-m>
-      <y-m>  0.15711 </y-m>
-      <z-m> -0.25303 </z-m>
-      <pitch-deg>   35 </pitch-deg>
+      <x-m>0.54537</x-m>
+      <y-m>0.15711</y-m>
+      <z-m>-0.25303</z-m>
+      <pitch-deg>35</pitch-deg>
     </offsets>
   </model>
 
@@ -57,9 +57,9 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Panel/Pedestal/Instruments/Throttle/throttle.xml</path>
     <offsets>
-      <x-m>  0.42155 </x-m>
-      <y-m> -0.05962 </y-m>
-      <z-m> -0.25817 </z-m>
+      <x-m>0.42155</x-m>
+      <y-m>-0.05962</y-m>
+      <z-m>-0.25817</z-m>
     </offsets>
   </model>
 
@@ -67,9 +67,9 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Panel/Pedestal/Instruments/Propellers/propellers.xml</path>
     <offsets>
-      <x-m>  0.42155 </x-m>
-      <y-m>  0.10000 </y-m>
-      <z-m> -0.23817 </z-m>
+      <x-m>0.42155</x-m>
+      <y-m>0.10000</y-m>
+      <z-m>-0.23817</z-m>
     </offsets>
   </model>
 
@@ -77,9 +77,9 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Panel/Pedestal/Instruments/Fuel/fuel.xml</path>
     <offsets>
-      <x-m>  0.16367 </x-m>
-      <y-m>  0.00000 </y-m>
-      <z-m> -0.22444 </z-m>
+      <x-m>0.16367</x-m>
+      <y-m>0.00000</y-m>
+      <z-m>-0.22444</z-m>
     </offsets>
   </model>
 
@@ -92,9 +92,9 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Panel/Pedestal/Instruments/Divers/key.xml</path>
     <offsets>
-      <x-m>  0.03834 </x-m>
-      <y-m>  0.00000 </y-m>
-      <z-m> -0.20287 </z-m>
+      <x-m>0.03834</x-m>
+      <y-m>0.00000</y-m>
+      <z-m>-0.20287</z-m>
     </offsets>
   </model>
 
@@ -102,9 +102,9 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Panel/Pedestal/Instruments/Divers/indikatorpp.xml</path>
     <offsets>
-      <x-m>  0.28700 </x-m>
-      <y-m>  0.00000 </y-m>
-      <z-m> -0.24433 </z-m>
+      <x-m>0.28700</x-m>
+      <y-m>0.00000</y-m>
+      <z-m>-0.24433</z-m>
     </offsets>
   </model>
 

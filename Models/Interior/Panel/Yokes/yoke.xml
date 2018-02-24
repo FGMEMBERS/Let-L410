@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -16,16 +16,16 @@
     <type>rotate</type>
     <object-name>yoke</object-name>
     <property>surface-positions/aileron-pos-norm</property>
-    <factor> -45 </factor>
+    <factor>-45</factor>
     <center>
-      <x-m> 0.06 </x-m>
-      <y-m> 0.00 </y-m>
-      <z-m> 0.60 </z-m>
+      <x-m>0.06</x-m>
+      <y-m>0.00</y-m>
+      <z-m>0.60</z-m>
     </center>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
   
@@ -39,11 +39,11 @@
     <type>rotate</type>
     <object-name>AllYoke</object-name>
     <property>surface-positions/elevator-pos-norm</property>
-    <factor> -5 </factor>
+    <factor>-5</factor>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
   

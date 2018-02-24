@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -25,9 +25,9 @@
     <object-name>needle</object-name>
     <emission>
       <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+      <red>0.50</red>
+      <green>0.25</green>
+      <blue>0.25</blue>
     </emission>
   </animation>
 
@@ -36,14 +36,14 @@
     <object-name>needle</object-name>
     <property>/instrumentation/vertical-speed-indicator/indicated-speed-fpm</property>
     <interpolation>
-      <entry><ind> -1970 </ind><dep>  180 </dep></entry>
-      <entry><ind>     0 </ind><dep>    0 </dep></entry>
-      <entry><ind>  1970 </ind><dep> -180 </dep></entry>
+      <entry><ind>-1970</ind><dep>180</dep></entry>
+      <entry><ind>0</ind><dep>0</dep></entry>
+      <entry><ind>1970</ind><dep>-180</dep></entry>
     </interpolation>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 

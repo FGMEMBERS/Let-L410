@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -19,13 +19,13 @@
     <object-name>propleft</object-name>
     <property>controls/engines/engine[0]/propeller-pitch</property>
     <factor>-50</factor>
-    <offset-deg> 20 </offset-deg>
-    <min-deg>   -40 </min-deg>
-    <max-deg>    40 </max-deg>
+    <offset-deg>20</offset-deg>
+    <min-deg>-40</min-deg>
+    <max-deg>40</max-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
   
@@ -33,14 +33,14 @@
     <type>rotate</type>
     <object-name>propright</object-name>
     <property>controls/engines/engine[0]/propeller-pitch</property>
-    <factor> -50 </factor>
-    <offset-deg> 20 </offset-deg>
-    <min-deg>   -40 </min-deg>
-    <max-deg>    40 </max-deg>
+    <factor>-50</factor>
+    <offset-deg>20</offset-deg>
+    <min-deg>-40</min-deg>
+    <max-deg>40</max-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 

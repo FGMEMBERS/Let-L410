@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -14,7 +14,7 @@
     <reflection-rainbow type="float">0.3</reflection-rainbow>
     <reflection-noise type="float">0.0</reflection-noise>
     <reflection-dynamic type="int">1</reflection-dynamic>
-      <texture n= "5" >
+      <texture n="5">
         <type>cubemap</type>
         <images>
           <positive-x>Aircraft/Generic/Effects/fgfs-sky2/1.png</positive-x>

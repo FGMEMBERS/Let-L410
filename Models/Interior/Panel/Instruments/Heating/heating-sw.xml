@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -11,14 +11,14 @@
     <!-- Objets transparents -->
   </animation>
 
-  <animation> 
+  <animation>
     <type>material</type>
     <object-name>manette</object-name>
-    <emission> 
+    <emission>
       <factor-prop>/instrumentation/lights/control-panel-intensity</factor-prop>
-      <red>   0.05</red>
-      <green> 0.05</green>
-      <blue>  0.05</blue>
+      <red>0.05</red>
+      <green>0.05</green>
+      <blue>0.05</blue>
     </emission>
   </animation>
 
@@ -26,12 +26,12 @@
     <type>rotate</type>
     <object-name>manette</object-name>
     <property>/controls/heating/heating-sw</property>
-    <factor> -5.8 </factor>
-    <offset-deg> 27 </offset-deg>
+    <factor>-5.8</factor>
+    <offset-deg>27</offset-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 

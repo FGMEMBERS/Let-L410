@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -27,7 +27,7 @@
     <object-name>HSI.crsdeflection</object-name>
     <object-name>Plane</object-name>
     <object-name>fromflag</object-name>
-    <object-name>toflag</object-name>  
+    <object-name>toflag</object-name>
 
     <object-name>vitre</object-name>
   </animation>
@@ -61,12 +61,12 @@
     <object-name>HSI.crsdeflection</object-name>
     <object-name>Plane</object-name>
     <object-name>fromflag</object-name>
-    <object-name>toflag</object-name>  
+    <object-name>toflag</object-name>
     <emission>
       <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+      <red>0.50</red>
+      <green>0.25</green>
+      <blue>0.25</blue>
     </emission>
   </animation>
 
@@ -155,9 +155,9 @@
     <object-name>fromflag</object-name>
     <property>orientation/heading-magnetic-deg</property>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -166,9 +166,9 @@
     <object-name>HSI.navbrg</object-name>
     <property>orientation/heading-deg</property>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -180,9 +180,9 @@
     <object-name>fromflag</object-name>
     <property>instrumentation/nav/radials/selected-deg</property>
     <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -191,14 +191,14 @@
     <object-name>HSI.crsdeflection</object-name>
     <property>instrumentation/nav/heading-needle-deflection</property>
     <interpolation>
-      <entry><ind> -5 </ind><dep> -0.0117 </dep></entry>
-      <entry><ind>  0 </ind><dep>  0.0000 </dep></entry>
-      <entry><ind>  5 </ind><dep>  0.0117 </dep></entry>
+      <entry><ind>-5</ind><dep>-0.0117</dep></entry>
+      <entry><ind>0</ind><dep>0.0000</dep></entry>
+      <entry><ind>5</ind><dep>0.0117</dep></entry>
     </interpolation>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -207,9 +207,9 @@
     <object-name>HSI.hdgbug</object-name>
     <property>autopilot/internal/heading-bug-error-deg</property>
     <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -218,9 +218,9 @@
     <object-name>HSI.navbrg</object-name>
     <property>instrumentation/nav/heading-deg</property>
     <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -234,9 +234,9 @@
       <entry><ind>2.0</ind><dep>0.0133</dep></entry>
     </interpolation>
     <axis>
-      <x> 0 </x>
-      <y> 0 </y>
-      <z> 1 </z>
+      <x>0</x>
+      <y>0</y>
+      <z>1</z>
     </axis>
   </animation>
 
@@ -261,9 +261,9 @@
     <factor>0.01</factor>
     <step>10</step>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -274,9 +274,9 @@
     <factor>0.1</factor>
     <step>1</step>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -288,9 +288,9 @@
     <factor>0.000000539956803</factor>
     <step>185200</step>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -301,9 +301,9 @@
     <factor>0.00000539956803</factor>
     <step>18520</step>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -314,9 +314,9 @@
     <factor>0.0000539956803</factor>
     <step>1852</step>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -327,9 +327,9 @@
     <factor>0.000539956803</factor>
     <step>185.2</step>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -339,14 +339,14 @@
     <property>instrumentation/nav/radials/selected-deg</property>
     <factor>2</factor>
     <center>
-      <x-m>  0.00000 </x-m>
-      <y-m> -0.04436 </y-m>
-      <z-m> -0.03418 </z-m>
+      <x-m>0.00000</x-m>
+      <y-m>-0.04436</y-m>
+      <z-m>-0.03418</z-m>
     </center>
     <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -356,14 +356,14 @@
     <property>autopilot/settings/heading-bug-deg</property>
     <factor>2</factor>
     <center>
-      <x-m>  0.00000 </x-m>
-      <y-m>  0.04295 </y-m>
-      <z-m> -0.03418 </z-m>
+      <x-m>0.00000</x-m>
+      <y-m>0.04295</y-m>
+      <z-m>-0.03418</z-m>
     </center>
     <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 

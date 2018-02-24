@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -16,11 +16,11 @@
     <type>rotate</type>
     <object-name>flaps-lever</object-name>
     <property>/controls/flight/flaps</property>
-    <factor> 52 </factor>
+    <factor>52</factor>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 

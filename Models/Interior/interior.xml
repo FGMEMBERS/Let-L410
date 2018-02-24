@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -45,9 +45,9 @@
   <model>
     <path>Aircraft/Let-L410/Models/Pilot/pilot.xml</path>
     <offsets>
-      <x-m> -4.473 </x-m>
-      <y-m> -0.448 </y-m>
-      <z-m>  0.034 </z-m>
+      <x-m>-4.473</x-m>
+      <y-m>-0.448</y-m>
+      <z-m>0.034</z-m>
     </offsets>
   </model>
 
@@ -60,9 +60,9 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Panel/panel.xml</path>
     <offsets>
-      <x-m> -4.933 </x-m>
-      <y-m>  0.000 </y-m>
-      <z-m>  0.136 </z-m>
+      <x-m>-4.933</x-m>
+      <y-m>0.000</y-m>
+      <z-m>0.136</z-m>
     </offsets>
   </model>
 
@@ -71,19 +71,19 @@
     <object-name>marche</object-name>
     <property>instrumentation/doors/crew/position-norm</property>
     <interpolation>
-      <entry><ind> 0.0 </ind><dep> -145 </dep></entry>
-      <entry><ind> 0.5 </ind><dep> -145 </dep></entry>
-      <entry><ind> 1.0 </ind><dep>    0 </dep></entry>
+      <entry><ind>0.0</ind><dep>-145</dep></entry>
+      <entry><ind>0.5</ind><dep>-145</dep></entry>
+      <entry><ind>1.0</ind><dep>0</dep></entry>
     </interpolation>
     <center>
-      <x-m>  0.665 </x-m>
-      <y-m> -0.865 </y-m>
-      <z-m> -0.786 </z-m>
+      <x-m>0.665</x-m>
+      <y-m>-0.865</y-m>
+      <z-m>-0.786</z-m>
     </center>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -106,16 +106,16 @@
     <type>rotate</type>
     <object-name>intportesoute1</object-name>
     <property>sim/model/door-positions/crew/position-norm</property>
-    <factor> -170 </factor>
+    <factor>-170</factor>
     <center>
-      <x-m> -0.109 </x-m>
-      <y-m> -1.049 </y-m>
-      <z-m> -0.062 </z-m>
+      <x-m>-0.109</x-m>
+      <y-m>-1.049</y-m>
+      <z-m>-0.062</z-m>
     </center>
     <axis>
-      <x> 0 </x>
-      <y> 0 </y>
-      <z> 1 </z>
+      <x>0</x>
+      <y>0</y>
+      <z>1</z>
     </axis>
   </animation>
 
@@ -139,16 +139,16 @@
     <object-name>intportesoute2</object-name>
     <object-name>inttourporte</object-name>
     <property>sim/model/door-positions/passenger/position-norm</property>
-    <factor> -100 </factor>
+    <factor>-100</factor>
     <center>
-      <x-m>  0.601 </x-m>
-      <y-m> -0.866 </y-m>
-      <z-m>  0.705 </z-m>
+      <x-m>0.601</x-m>
+      <y-m>-0.866</y-m>
+      <z-m>0.705</z-m>
     </center>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
