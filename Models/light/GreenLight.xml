@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -32,9 +32,9 @@
     <type>material</type>
     <object-name>Light</object-name>
     <emission>
-      <red>   1 </red>
-      <green> 1 </green>
-      <blue>  1 </blue>
+      <red>1</red>
+      <green>1</green>
+      <blue>1</blue>
       <factor-prop>/systems/electrical/volts</factor-prop>
     </emission>
   </animation>
@@ -43,10 +43,10 @@
     <type>dist-scale</type>
     <object-name>Light</object-name>
     <interpolation>
-      <entry><ind>    0 </ind><dep> 0.19 </dep></entry>
-      <entry><ind>   20 </ind><dep> 0.21 </dep></entry>
-      <entry><ind> 1500 </ind><dep> 5.00 </dep></entry>
-	  <entry><ind> 25000</ind><dep>25.00 </dep></entry>
+      <entry><ind>0</ind><dep>0.19</dep></entry>
+      <entry><ind>20</ind><dep>0.21</dep></entry>
+      <entry><ind>1500</ind><dep>5.00</dep></entry>
+	  <entry><ind>25000</ind><dep>25.00</dep></entry>
     </interpolation>
   </animation>
 
@@ -54,9 +54,9 @@
   <type>flash</type>
   <object-name>Light</object-name>
   <center>
-      <x-m>  0 </x-m>
-      <y-m> 0.01 </y-m>
-      <z-m>  0 </z-m>
+      <x-m>0</x-m>
+      <y-m>0.01</y-m>
+      <z-m>0</z-m>
   </center>
   <axis>
    <x>1</x>

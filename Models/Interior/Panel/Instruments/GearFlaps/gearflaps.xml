@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -19,12 +19,12 @@
     <type>rotate</type>
     <object-name>parking_brake</object-name>
     <property>/controls/gear/parking-brake-cmd</property>
-    <factor> -75 </factor>
-    <offset-deg> 45 </offset-deg>
+    <factor>-75</factor>
+    <offset-deg>45</offset-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -32,12 +32,12 @@
     <type>rotate</type>
     <object-name>emerg_flaps</object-name>
     <property>/controls/switches/flaps-emergency-sw</property>
-    <factor> 70 </factor>
-    <offset-deg> -65 </offset-deg>
+    <factor>70</factor>
+    <offset-deg>-65</offset-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -45,12 +45,12 @@
     <type>rotate</type>
     <object-name>emerg_gear</object-name>
     <property>/controls/switches/gear-emergency-sw</property>
-    <factor> 70 </factor>
-    <offset-deg> -65 </offset-deg>
+    <factor>70</factor>
+    <offset-deg>-65</offset-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 

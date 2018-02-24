@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
  
 <PropertyList>
 
@@ -325,51 +325,51 @@
       <max-dist>1000</max-dist>
     </stall>
  
-    <!--                  Toggle Switches                  -->     
-    <click> 
+    <!-- Toggle Switches -->
+    <click>
       <name>Battery on</name>
       <path>Sounds/click.wav</path>
-      <condition> 
+      <condition>
         <property>controls/electric/battery-switch</property>
       </condition>
-      <volume> 
+      <volume>
         <factor>1.0</factor>
       </volume>
     </click>
 
-    <click> 
+    <click>
       <name>Battery off</name>
       <path>Sounds/click.wav</path>
-      <condition> 
-        <not> 
+      <condition>
+        <not>
           <property>controls/electric/battery-switch</property>
         </not>
       </condition>
-      <volume> 
+      <volume>
         <factor>1.0</factor>
       </volume>
     </click>
 
-    <click> 
+    <click>
       <name>Fuel Pump on</name>
       <path>Sounds/click.wav</path>
-      <condition> 
+      <condition>
         <property>controls/engines/engine/fuel-pump</property>
       </condition>
-      <volume> 
+      <volume>
         <factor>1.0</factor>
       </volume>
     </click>
 
-    <click> 
+    <click>
       <name>Fuel Pump off</name>
       <path>Sounds/click.wav</path>
-      <condition> 
-        <not> 
+      <condition>
+        <not>
           <property>controls/engines/engine/fuel-pump</property>
         </not>
       </condition>
-      <volume> 
+      <volume>
         <factor>1.0</factor>
       </volume>
     </click>
@@ -398,7 +398,7 @@
       </volume>
     </click>
 
-    <click> 
+    <click>
       <name>Magnetos-off</name>
       <path>Sounds/click.wav</path>
       <condition>
@@ -406,12 +406,12 @@
           <property>controls/engines/engine/magnetos</property>
         </not>
       </condition>
-      <volume> 
+      <volume>
         <factor>1.0</factor>
       </volume>
     </click>
 
-    <click> 
+    <click>
       <name>Strobe Lights White</name>
       <path>Sounds/click.wav</path>
       <condition>
@@ -420,36 +420,36 @@
           <value>1</value>
         </equals>
       </condition>
-      <volume> 
+      <volume>
         <factor>1.0</factor>
       </volume>
     </click>
 
-    <click> 
+    <click>
       <name>Strobe Lights Off</name>
       <path>Sounds/click.wav</path>
       <condition>
-        <not> 
+        <not>
           <property>controls/switches/strobes</property>
         </not>
       </condition>
-      <volume> 
+      <volume>
         <factor>1.0</factor>
       </volume>
     </click>
 
-    <click> 
+    <click>
       <name>Avionics Master On</name>
       <path>Sounds/click.wav</path>
       <condition>
         <property>controls/switches/avionic-master</property>
       </condition>
-      <volume> 
+      <volume>
         <factor>1.0</factor>
       </volume>
     </click>
  
-    <click> 
+    <click>
       <name>Avionics Master Off</name>
       <path>Sounds/click.wav</path>
       <condition>
@@ -457,7 +457,7 @@
           <property>controls/switches/avionic-master</property>
         </not>
       </condition>
-      <volume> 
+      <volume>
         <factor>1.0</factor>
       </volume>
     </click>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -34,9 +34,9 @@
     <object-name>onhgknob</object-name>
     <emission>
       <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+      <red>0.50</red>
+      <green>0.25</green>
+      <blue>0.25</blue>
     </emission>
   </animation>
 
@@ -46,9 +46,9 @@
     <property>instrumentation/altimeter/indicated-altitude-ft</property>
     <factor>0.36</factor>
     <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -58,9 +58,9 @@
     <property>instrumentation/altimeter/indicated-altitude-ft</property>
     <factor>0.036</factor>
     <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -68,11 +68,11 @@
     <type>rotate</type>
     <object-name>needle10000</object-name>
     <property>instrumentation/altimeter/indicated-altitude-ft</property>
-    <factor> 0.0036 </factor>
+    <factor>0.0036</factor>
     <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -81,25 +81,25 @@
     <object-name>inhg</object-name>
     <property>instrumentation/altimeter/setting-inhg</property>
     <interpolation>
-      <entry><ind> 27.9 </ind><dep>   0.00 </dep></entry>
-      <entry><ind> 28.0 </ind><dep>   9.35 </dep></entry>
-      <entry><ind> 28.5 </ind><dep>  59.00 </dep></entry>
-      <entry><ind> 29.0 </ind><dep> 109.00 </dep></entry>
-      <entry><ind> 29.5 </ind><dep> 159.50 </dep></entry>
-      <entry><ind> 29.9 </ind><dep> 200.00 </dep></entry>
-      <entry><ind> 30.0 </ind><dep> 210.00 </dep></entry>
-      <entry><ind> 30.5 </ind><dep> 261.00 </dep></entry>
-      <entry><ind> 31.0 </ind><dep> 310.00 </dep></entry>
-      <entry><ind> 31.4 </ind><dep> 350.00 </dep></entry>
+      <entry><ind>27.9</ind><dep>0.00</dep></entry>
+      <entry><ind>28.0</ind><dep>9.35</dep></entry>
+      <entry><ind>28.5</ind><dep>59.00</dep></entry>
+      <entry><ind>29.0</ind><dep>109.00</dep></entry>
+      <entry><ind>29.5</ind><dep>159.50</dep></entry>
+      <entry><ind>29.9</ind><dep>200.00</dep></entry>
+      <entry><ind>30.0</ind><dep>210.00</dep></entry>
+      <entry><ind>30.5</ind><dep>261.00</dep></entry>
+      <entry><ind>31.0</ind><dep>310.00</dep></entry>
+      <entry><ind>31.4</ind><dep>350.00</dep></entry>
     </interpolation>
     <center>
-      <x> 0.25 </x>
-      <y> 0.25 </y>
+      <x>0.25</x>
+      <y>0.25</y>
     </center>
     <axis>
-      <x>  0 </x>
-      <y>  0 </y>
-      <z> -1 </z>
+      <x>0</x>
+      <y>0</y>
+      <z>-1</z>
     </axis>
   </animation>
 
@@ -114,8 +114,8 @@
         <command>property-adjust</command>
         <property>instrumentation/altimeter/setting-inhg</property>
         <step>-0.01</step>
-        <min> 27.90 </min>
-        <max> 31.40 </max>
+        <min>27.90</min>
+        <max>31.40</max>
         <wrap>0</wrap>
       </binding>
     </action>
@@ -132,8 +132,8 @@
         <command>property-adjust</command>
         <property>instrumentation/altimeter/setting-inhg</property>
         <step>-0.1</step>
-        <min> 27.90 </min>
-        <max> 31.40 </max>
+        <min>27.90</min>
+        <max>31.40</max>
         <wrap>0</wrap>
       </binding>
     </action>
@@ -150,8 +150,8 @@
           <command>property-adjust</command>
           <property>instrumentation/altimeter/setting-inhg</property>
           <step>0.01</step>
-          <min> 27.90 </min>
-          <max> 31.40 </max>
+          <min>27.90</min>
+          <max>31.40</max>
           <wrap>0</wrap>
       </binding>
     </action>
@@ -168,8 +168,8 @@
         <command>property-adjust</command>
         <property>instrumentation/altimeter/setting-inhg</property>
         <step>0.1</step>
-        <min> 27.90 </min>
-        <max> 31.40 </max>
+        <min>27.90</min>
+        <max>31.40</max>
         <wrap>0</wrap>
       </binding>
     </action>

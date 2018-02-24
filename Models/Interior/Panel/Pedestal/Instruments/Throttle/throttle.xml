@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -19,14 +19,14 @@
     <type>rotate</type>
     <object-name>leverleft</object-name>
     <property>controls/engines/engine[0]/throttle</property>
-    <factor> -45 </factor>
-    <offset-deg> 16 </offset-deg>
-    <min-deg> -40 </min-deg>
-    <max-deg>  40 </max-deg>
+    <factor>-45</factor>
+    <offset-deg>16</offset-deg>
+    <min-deg>-40</min-deg>
+    <max-deg>40</max-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -34,14 +34,14 @@
     <type>rotate</type>
     <object-name>leverright</object-name>
     <property>controls/engines/engine[1]/throttle</property>
-    <factor> -45 </factor>
-    <offset-deg> 16 </offset-deg>
-    <min-deg> -40 </min-deg>
-    <max-deg>  40 </max-deg>
+    <factor>-45</factor>
+    <offset-deg>16</offset-deg>
+    <min-deg>-40</min-deg>
+    <max-deg>40</max-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -49,18 +49,18 @@
     <type>rotate</type>
     <object-name>reverse</object-name>
     <property>controls/engines/reverser-lock</property>
-    <factor> 135 </factor>
+    <factor>135</factor>
     <center>
-      <x-m>  0.03986 </x-m>
-      <y-m> -0.01006 </y-m>
-      <z-m>  0.11150 </z-m>
+      <x-m>0.03986</x-m>
+      <y-m>-0.01006</y-m>
+      <z-m>0.11150</z-m>
     </center>
     <axis>
       <x>0</x>
       <y>1</y>
       <z>0</z>
     </axis>
-  </animation> 
+  </animation>
 
 </PropertyList>
 

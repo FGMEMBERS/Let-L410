@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -6,9 +6,9 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -4.260 </x-m>
-      <y-m> -0.457 </y-m>
-      <z-m> -0.608 </z-m>
+      <x-m>-4.260</x-m>
+      <y-m>-0.457</y-m>
+      <z-m>-0.608</z-m>
     </offsets>
   </model>
 
@@ -16,9 +16,9 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -4.260 </x-m>
-      <y-m>  0.457 </y-m>
-      <z-m> -0.608 </z-m>
+      <x-m>-4.260</x-m>
+      <y-m>0.457</y-m>
+      <z-m>-0.608</z-m>
     </offsets>
   </model>
 
@@ -26,63 +26,63 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -3.178 </x-m>
-      <y-m>  0.662 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-3.178</x-m>
+      <y-m>0.662</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -2.487 </x-m>
-      <y-m>  0.662 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-2.487</x-m>
+      <y-m>0.662</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -1.813 </x-m>
-      <y-m>  0.662 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-1.813</x-m>
+      <y-m>0.662</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -1.155 </x-m>
-      <y-m>  0.662 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-1.155</x-m>
+      <y-m>0.662</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -0.498 </x-m>
-      <y-m>  0.662 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-0.498</x-m>
+      <y-m>0.662</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m>  0.177 </x-m>
-      <y-m>  0.662 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>0.177</x-m>
+      <y-m>0.662</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m>  0.851 </x-m>
-      <y-m>  0.662 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>0.851</x-m>
+      <y-m>0.662</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
@@ -90,63 +90,63 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -3.178 </x-m>
-      <y-m>  0.163 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-3.178</x-m>
+      <y-m>0.163</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -2.487 </x-m>
-      <y-m>  0.163 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-2.487</x-m>
+      <y-m>0.163</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -1.813 </x-m>
-      <y-m>  0.163 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-1.813</x-m>
+      <y-m>0.163</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -1.155 </x-m>
-      <y-m>  0.163 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-1.155</x-m>
+      <y-m>0.163</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -0.498 </x-m>
-      <y-m>  0.163 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-0.498</x-m>
+      <y-m>0.163</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m>  0.177 </x-m>
-      <y-m>  0.163 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>0.177</x-m>
+      <y-m>0.163</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m>  0.851 </x-m>
-      <y-m>  0.163 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>0.851</x-m>
+      <y-m>0.163</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
@@ -154,45 +154,45 @@
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -3.178 </x-m>
-      <y-m> -0.670 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-3.178</x-m>
+      <y-m>-0.670</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -2.487 </x-m>
-      <y-m> -0.670 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-2.487</x-m>
+      <y-m>-0.670</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -1.813 </x-m>
-      <y-m> -0.670 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-1.813</x-m>
+      <y-m>-0.670</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -1.155 </x-m>
-      <y-m> -0.670 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-1.155</x-m>
+      <y-m>-0.670</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Let-L410/Models/Interior/Seats/seat.xml</path>
     <offsets>
-      <x-m> -0.498 </x-m>
-      <y-m> -0.670 </y-m>
-      <z-m> -0.804 </z-m>
+      <x-m>-0.498</x-m>
+      <y-m>-0.670</y-m>
+      <z-m>-0.804</z-m>
     </offsets>
   </model>
 

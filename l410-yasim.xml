@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-
+<?xml version="1.0"?>
 <!--
-  Let L410      - 2012 - Emmanuel BARANGER with Melchior script
-
-  source        : http://en.wikipedia.org/wiki/Let_L-410_Turbolet
-
-  Wingspan      : 63.91 ft       ( 19.48 m  )
-  lenght        : 47.31 ft       ( 14.42 m  )
-  height        : 19.13 ft       (  5.83 m  )
-  Empty mass    :  8212 lb       (  3725 kg )
-  Engine        : 2 x Walter M601E turboprop (750 hp each )
-  Maximum speed : 211.5 kt       ( 388 km/h )
-  Cruise speed  : 169.5 kt       ( 311 km/h )
+Let L410     - 2012 - Emmanuel BARANGER with Melchior script
+source       : http://en.wikipedia.org/wiki/Let_L-410_Turbolet
+Wingspan     : 63.91 ft       ( 19.48 m  )
+lenght       : 47.31 ft       ( 14.42 m  )
+height       : 19.13 ft       (  5.83 m  )
+Empty mass   :  8212 lb       (  3725 kg )
+Engine       : 2 x Walter M601E turboprop (750 hp each )
+Maximum speed: 211.5 kt       ( 388 km/h )
+Cruise speed : 169.5 kt       ( 311 km/h )
 -->
 
 <airplane mass="8212" version="YASIM_VERSION_CURRENT">
@@ -107,13 +104,13 @@
          <control-output control="FLAP0" prop="/surface-positions/rudder-pos-norm" min="1" max="-1"/>         
   </vstab>
 
-  <!--  Walter M601
-                 source       : http://en.wikipedia.org/wiki/Walter_M601
-                                http://www.geaviation.cz/editor/filestore/File/motory/61416_m601e11_datasheet.pdf
-
-                 type         : Turboprop
-                 power        : 740 hp, 657 hp continuous
-                 weight       : 178.72 kg  ( 394 lb )
+  <!--
+  Walter M601
+  source: http://en.wikipedia.org/wiki/Walter_M601
+          http://www.geaviation.cz/editor/filestore/File/motory/61416_m601e11_datasheet.pdf
+  type:   Turboprop
+  power:  740 hp, 657 hp continuous
+  weight: 178.72 kg (394 lb)
   -->  
   <propeller x="2.8" y="2.330" z="0.810"
              mass="394" 

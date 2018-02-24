@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -16,11 +16,11 @@
     <type>rotate</type>
     <object-name>key</object-name>
     <property>/controls/switches/fuel_locked</property>
-    <factor> -90 </factor>
+    <factor>-90</factor>
     <axis>
-      <x> 0 </x>
-      <y> 0 </y>
-      <z> 1 </z>
+      <x>0</x>
+      <y>0</y>
+      <z>1</z>
     </axis>
   </animation> 
 

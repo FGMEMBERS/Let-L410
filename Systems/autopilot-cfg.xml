@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <!-- Generic Autopilot Configuration
 
@@ -12,7 +12,7 @@
   <!-- Roll Axis Modes                                                 -->
   <!-- =============================================================== -->
 
-  <!-- Wing leveler --> 
+  <!-- Wing leveler -->
   <pid-controller>
     <name>Wing Leveler (Turn Coordinator based)</name>
     <debug>false</debug>
@@ -30,15 +30,15 @@
       <prop>/autopilot/internal/target-roll-deg</prop>
     </output>
     <config>
-      <Kp>10</Kp>         <!-- proportional gain -->
-      <beta>10</beta>     <!-- input value weighing factor -->
-      <alpha>1</alpha>    <!-- low pass filter weighing factor -->
-      <gamma>0</gamma>    <!-- input value weighing factor for -->
+      <Kp>10</Kp> <!-- proportional gain -->
+      <beta>10</beta> <!-- input value weighing factor -->
+      <alpha>1</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0</gamma> <!-- input value weighing factor for -->
                           <!-- unfiltered derivative error -->
-      <Ti>1</Ti>          <!-- integrator time -->
-      <Td>0.001</Td>      <!-- derivator time -->
-      <u_min>-30</u_min>  <!-- minimum output clamp -->
-      <u_max>30</u_max>   <!-- maximum output clamp -->
+      <Ti>1</Ti> <!-- integrator time -->
+      <Td>0.001</Td> <!-- derivator time -->
+      <u_min>-30</u_min> <!-- minimum output clamp -->
+      <u_max>30</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
   <pid-controller>
@@ -58,15 +58,15 @@
       <prop>/autopilot/internal/target-roll-deg</prop>
     </output>
     <config>
-      <Kp>10</Kp>        <!-- proportional gain -->
-      <beta>10</beta>    <!-- input value weighing factor -->
-      <alpha>1</alpha>   <!-- low pass filter weighing factor -->
-      <gamma>0</gamma>   <!-- input value weighing factor for -->
+      <Kp>10</Kp> <!-- proportional gain -->
+      <beta>10</beta> <!-- input value weighing factor -->
+      <alpha>1</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0</gamma> <!-- input value weighing factor for -->
                          <!-- unfiltered derivative error -->
-      <Ti>1</Ti>         <!-- integrator time -->
-      <Td>0.001</Td>     <!-- derivator time -->
+      <Ti>1</Ti> <!-- integrator time -->
+      <Td>0.001</Td> <!-- derivator time -->
       <u_min>-15</u_min> <!-- minimum output clamp -->
-      <u_max>15</u_max>  <!-- maximum output clamp -->
+      <u_max>15</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
 
@@ -87,15 +87,15 @@
       <prop>/controls/flight/aileron-ap</prop>
     </output>
     <config>
-      <Kp>0.1</Kp>        <!-- proportional gain -->
-      <beta>1.0</beta>    <!-- input value weighing factor -->
-      <alpha>0.5</alpha>  <!-- low pass filter weighing factor -->
-      <gamma>0.0</gamma>  <!-- input value weighing factor for -->
+      <Kp>0.1</Kp> <!-- proportional gain -->
+      <beta>1.0</beta> <!-- input value weighing factor -->
+      <alpha>0.5</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0.0</gamma> <!-- input value weighing factor for -->
                           <!-- unfiltered derivative error -->
-      <Ti>10.0</Ti>       <!-- integrator time -->
-      <Td>0.001</Td>      <!-- derivator time -->
+      <Ti>10.0</Ti> <!-- integrator time -->
+      <Td>0.001</Td> <!-- derivator time -->
       <u_min>-1.0</u_min> <!-- minimum output clamp -->
-      <u_max>1.0</u_max>  <!-- maximum output clamp -->
+      <u_max>1.0</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
 
@@ -120,15 +120,15 @@
       <prop>/autopilot/internal/target-roll-deg</prop>
     </output>
     <config>
-      <Kp>-1.0</Kp>        <!-- proportional gain -->
-      <beta>1.0</beta>     <!-- input value weighing factor -->
-      <alpha>0.1</alpha>   <!-- low pass filter weighing factor -->
-      <gamma>0.0</gamma>   <!-- input value weighing factor for -->
+      <Kp>-1.0</Kp> <!-- proportional gain -->
+      <beta>1.0</beta> <!-- input value weighing factor -->
+      <alpha>0.1</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0.0</gamma> <!-- input value weighing factor for -->
                            <!-- unfiltered derivative error -->
-      <Ti>10.0</Ti>        <!-- integrator time -->
-      <Td>0.00001</Td>     <!-- derivator time -->
+      <Ti>10.0</Ti> <!-- integrator time -->
+      <Td>0.00001</Td> <!-- derivator time -->
       <u_min>-30.0</u_min> <!-- minimum output clamp -->
-      <u_max>30.0</u_max>  <!-- maximum output clamp -->
+      <u_max>30.0</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
   <pid-controller>
@@ -148,15 +148,15 @@
       <prop>/autopilot/internal/target-roll-deg</prop>
     </output>
     <config>
-      <Kp>-1.0</Kp>        <!-- proportional gain -->
-      <beta>1.0</beta>     <!-- input value weighing factor -->
-      <alpha>0.1</alpha>   <!-- low pass filter weighing factor -->
-      <gamma>0.0</gamma>   <!-- input value weighing factor for -->
+      <Kp>-1.0</Kp> <!-- proportional gain -->
+      <beta>1.0</beta> <!-- input value weighing factor -->
+      <alpha>0.1</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0.0</gamma> <!-- input value weighing factor for -->
                            <!-- unfiltered derivative error -->
-      <Ti>10.0</Ti>        <!-- integrator time -->
-      <Td>0.00001</Td>     <!-- derivator time -->
+      <Ti>10.0</Ti> <!-- integrator time -->
+      <Td>0.00001</Td> <!-- derivator time -->
       <u_min>-15.0</u_min> <!-- minimum output clamp -->
-      <u_max>15.0</u_max>  <!-- maximum output clamp -->
+      <u_max>15.0</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
 
@@ -178,15 +178,15 @@
       <prop>/controls/flight/aileron-ap</prop>
     </output>
     <config>
-      <Kp>0.01</Kp>        <!-- proportional gain -->
-      <beta>1.0</beta>    <!-- input value weighing factor -->
-      <alpha>0.5</alpha>  <!-- low pass filter weighing factor -->
-      <gamma>0.0</gamma>  <!-- input value weighing factor for -->
+      <Kp>0.01</Kp> <!-- proportional gain -->
+      <beta>1.0</beta> <!-- input value weighing factor -->
+      <alpha>0.5</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0.0</gamma> <!-- input value weighing factor for -->
                           <!-- unfiltered derivative error -->
-      <Ti>10.0</Ti>       <!-- integrator time -->
-      <Td>0.001</Td>    <!-- derivator time -->
+      <Ti>10.0</Ti> <!-- integrator time -->
+      <Td>0.001</Td> <!-- derivator time -->
       <u_min>-1.0</u_min> <!-- minimum output clamp -->
-      <u_max>1.0</u_max>  <!-- maximum output clamp -->
+      <u_max>1.0</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
 
@@ -213,15 +213,15 @@
       <prop>/autopilot/internal/target-roll-deg</prop>
     </output>
     <config>
-      <Kp>-2.0</Kp>        <!-- proportional gain -->
-      <beta>1.0</beta>     <!-- input value weighing factor -->
-      <alpha>0.1</alpha>   <!-- low pass filter weighing factor -->
-      <gamma>0.2</gamma>   <!-- input value weighing factor for -->
+      <Kp>-2.0</Kp> <!-- proportional gain -->
+      <beta>1.0</beta> <!-- input value weighing factor -->
+      <alpha>0.1</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0.2</gamma> <!-- input value weighing factor for -->
                            <!-- unfiltered derivative error -->
-      <Ti>20.0</Ti>        <!-- integrator time 10 -->
-      <Td>0.00001</Td>     <!-- derivator time 0.00001-->
+      <Ti>20.0</Ti> <!-- integrator time 10 -->
+      <Td>0.00001</Td> <!-- derivator time 0.00001-->
       <u_min>-30.0</u_min> <!-- minimum output clamp -->
-      <u_max>30.0</u_max>  <!-- maximum output clamp -->
+      <u_max>30.0</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
   <pid-controller>
@@ -241,15 +241,15 @@
       <prop>/autopilot/internal/target-roll-deg</prop>
     </output>
     <config>
-      <Kp>-2.0</Kp>        <!-- proportional gain -->
-      <beta>1.0</beta>     <!-- input value weighing factor -->
-      <alpha>0.1</alpha>   <!-- low pass filter weighing factor -->
-      <gamma>0.2</gamma>   <!-- input value weighing factor for -->
+      <Kp>-2.0</Kp> <!-- proportional gain -->
+      <beta>1.0</beta> <!-- input value weighing factor -->
+      <alpha>0.1</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0.2</gamma> <!-- input value weighing factor for -->
                            <!-- unfiltered derivative error -->
-      <Ti>20.0</Ti>        <!-- integrator time 10 -->
-      <Td>0.00001</Td>     <!-- derivator time 0.00001-->
+      <Ti>20.0</Ti> <!-- integrator time 10 -->
+      <Td>0.00001</Td> <!-- derivator time 0.00001-->
       <u_min>-15.0</u_min> <!-- minimum output clamp -->
-      <u_max>15.0</u_max>  <!-- maximum output clamp -->
+      <u_max>15.0</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
 
@@ -271,15 +271,15 @@
       <prop>/controls/flight/aileron-ap</prop>
     </output>
     <config>
-      <Kp>0.02</Kp>        <!-- proportional gain -->
-      <beta>1.0</beta>    <!-- input value weighing factor -->
-      <alpha>0.5</alpha>  <!-- low pass filter weighing factor -->
-      <gamma>0.0</gamma>  <!-- input value weighing factor for -->
+      <Kp>0.02</Kp> <!-- proportional gain -->
+      <beta>1.0</beta> <!-- input value weighing factor -->
+      <alpha>0.5</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0.0</gamma> <!-- input value weighing factor for -->
                           <!-- unfiltered derivative error -->
-      <Ti>10.0</Ti>       <!-- integrator time -->
-      <Td>0.001</Td>    <!-- derivator time -->
+      <Ti>10.0</Ti> <!-- integrator time -->
+      <Td>0.001</Td> <!-- derivator time -->
       <u_min>-1.0</u_min> <!-- minimum output clamp -->
-      <u_max>1.0</u_max>  <!-- maximum output clamp -->
+      <u_max>1.0</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
 
@@ -287,7 +287,7 @@
  <!-- Pitch Axis Modes                                                -->
  <!-- =============================================================== -->
 
- <!-- Simple pitch hold --> 
+ <!-- Simple pitch hold -->
  <pid-controller>
     <name>Pitch hold</name>
     <debug>false</debug>
@@ -305,15 +305,15 @@
       <prop>/controls/flight/elevator-ap</prop>
     </output>
     <config>
-      <Kp>-0.05</Kp>      <!-- proportional gain -->
-      <beta>1.0</beta>    <!-- input value weighing factor -->
-      <alpha>0.1</alpha>  <!-- low pass filter weighing factor -->
-      <gamma>0.0</gamma>  <!-- input value weighing factor for -->
+      <Kp>-0.05</Kp> <!-- proportional gain -->
+      <beta>1.0</beta> <!-- input value weighing factor -->
+      <alpha>0.1</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0.0</gamma> <!-- input value weighing factor for -->
                           <!-- unfiltered derivative error -->
-      <Ti>1.0</Ti>        <!-- integrator time -->
-      <Td>0.00001</Td>    <!-- derivator time -->
+      <Ti>1.0</Ti> <!-- integrator time -->
+      <Td>0.00001</Td> <!-- derivator time -->
       <u_min>-1.0</u_min> <!-- minimum output clamp -->
-      <u_max>1.0</u_max>  <!-- maximum output clamp -->
+      <u_max>1.0</u_max> <!-- maximum output clamp -->
     </config>
    </pid-controller>
 
@@ -338,10 +338,10 @@
       <prop>/autopilot/internal/target-climb-rate-fps</prop>
     </output>
     <config>
-      <Kp>0.3</Kp>          <!-- proportional gain -->
-      <Ki>0.0</Ki>          <!-- integral gain -->
+      <Kp>0.3</Kp> <!-- proportional gain -->
+      <Ki>0.0</Ki> <!-- integral gain -->
       <u_min>-15.00</u_min> <!-- minimum output clamp -->
-      <u_max>15.00</u_max>   <!-- maximum output clamp -->
+      <u_max>15.00</u_max> <!-- maximum output clamp -->
     </config>
   </pi-simple-controller>
 
@@ -363,15 +363,15 @@
       <prop>/controls/flight/elevator-ap</prop>
     </output>
     <config>
-      <Kp>-0.005</Kp>      <!-- proportional gain -->
-      <beta>1.0</beta>    <!-- input value weighing factor -->
-      <alpha>0.5</alpha>  <!-- low pass filter weighing factor -->
-      <gamma>0.0</gamma>  <!-- input value weighing factor for -->
+      <Kp>-0.005</Kp> <!-- proportional gain -->
+      <beta>1.0</beta> <!-- input value weighing factor -->
+      <alpha>0.5</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0.0</gamma> <!-- input value weighing factor for -->
                           <!-- unfiltered derivative error -->
-      <Ti>10.0</Ti>       <!-- integrator time -->
-      <Td>0.00001</Td>    <!-- derivator time -->
+      <Ti>10.0</Ti> <!-- integrator time -->
+      <Td>0.00001</Td> <!-- derivator time -->
       <u_min>-1.0</u_min> <!-- minimum output clamp -->
-      <u_max>1.0</u_max>  <!-- maximum output clamp -->
+      <u_max>1.0</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
 
@@ -395,15 +395,15 @@
       <prop>/controls/flight/elevator-ap</prop>
     </output>
     <config>
-      <Kp>-0.01</Kp>      <!-- proportional gain -->
-      <beta>1.0</beta>    <!-- input value weighing factor -->
-      <alpha>0.1</alpha>  <!-- low pass filter weighing factor -->
-      <gamma>0.0</gamma>  <!-- input value weighing factor for -->
+      <Kp>-0.01</Kp> <!-- proportional gain -->
+      <beta>1.0</beta> <!-- input value weighing factor -->
+      <alpha>0.1</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0.0</gamma> <!-- input value weighing factor for -->
                           <!-- unfiltered derivative error -->
-      <Ti>10.0</Ti>       <!-- integrator time -->
-      <Td>0.0001</Td>    <!-- derivator time -->
+      <Ti>10.0</Ti> <!-- integrator time -->
+      <Td>0.0001</Td> <!-- derivator time -->
       <u_min>-1.0</u_min> <!-- minimum output clamp -->
-      <u_max>1.0</u_max>  <!-- maximum output clamp -->
+      <u_max>1.0</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
 
@@ -426,15 +426,15 @@
       <prop>/controls/flight/elevator-ap</prop>
     </output>
     <config>
-      <Kp>-0.01</Kp>     <!-- proportional gain -->
-      <beta>1</beta>     <!-- input value weighing factor -->
+      <Kp>-0.01</Kp> <!-- proportional gain -->
+      <beta>1</beta> <!-- input value weighing factor -->
       <alpha>0.1</alpha> <!-- low pass filter weighing factor -->
-      <gamma>0</gamma>   <!-- input value weighing factor for -->
+      <gamma>0</gamma> <!-- input value weighing factor for -->
                          <!-- unfiltered derivative error -->
-      <Ti>2</Ti>         <!-- integrator time -->
-      <Td>0.000001</Td>  <!-- derivator time -->
-      <u_min>-1</u_min>  <!-- minimum output clamp -->
-      <u_max>1</u_max>   <!-- maximum output clamp -->
+      <Ti>2</Ti> <!-- integrator time -->
+      <Td>0.000001</Td> <!-- derivator time -->
+      <u_min>-1</u_min> <!-- minimum output clamp -->
+      <u_max>1</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
 
@@ -442,7 +442,7 @@
  <!-- Velocity Modes                                                  -->
  <!-- =============================================================== -->
 
- <!-- Hold speed by varying pitch trim (Two stage cascading controller) --> 
+ <!-- Hold speed by varying pitch trim (Two stage cascading controller) -->
  <pid-controller>
     <name>Speed hold (vary pitch trim) Stage #1</name>
     <debug>false</debug>
@@ -460,15 +460,15 @@
       <prop>/autopilot/settings/target-pitch-deg</prop>
     </output>
     <config>
-      <Kp>-1</Kp>        <!-- proportional gain -->
-      <beta>1</beta>     <!-- input value weighing factor -->
+      <Kp>-1</Kp> <!-- proportional gain -->
+      <beta>1</beta> <!-- input value weighing factor -->
       <alpha>0.1</alpha> <!-- low pass filter weighing factor -->
-      <gamma>0</gamma>   <!-- input value weighing factor for -->
+      <gamma>0</gamma> <!-- input value weighing factor for -->
                          <!-- unfiltered derivative error -->
-      <Ti>1</Ti>         <!-- integrator time -->
-      <Td>0.00001</Td>   <!-- derivator time -->
+      <Ti>1</Ti> <!-- integrator time -->
+      <Td>0.00001</Td> <!-- derivator time -->
       <u_min>-15</u_min> <!-- minimum output clamp -->
-      <u_max>15</u_max>  <!-- maximum output clamp -->
+      <u_max>15</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
 
@@ -489,15 +489,15 @@
       <prop>/controls/flight/elevator-trim</prop>
     </output>
     <config>
-      <Kp>-0.05</Kp>      <!-- proportional gain -->
-      <beta>1</beta>      <!-- input value weighing factor -->
-      <alpha>0.1</alpha>  <!-- low pass filter weighing factor -->
-      <gamma>0</gamma>    <!-- input value weighing factor for -->
+      <Kp>-0.05</Kp> <!-- proportional gain -->
+      <beta>1</beta> <!-- input value weighing factor -->
+      <alpha>0.1</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0</gamma> <!-- input value weighing factor for -->
                           <!-- unfiltered derivative error -->
-      <Ti>1</Ti>          <!-- integrator time -->
-      <Td>0.00001</Td>    <!-- derivator time -->
-      <u_min>-1</u_min>   <!-- minimum output clamp -->
-      <u_max>1</u_max>    <!-- maximum output clamp -->
+      <Ti>1</Ti> <!-- integrator time -->
+      <Td>0.00001</Td> <!-- derivator time -->
+      <u_min>-1</u_min> <!-- minimum output clamp -->
+      <u_max>1</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
 
@@ -505,7 +505,7 @@
   <!-- Roll Axis Modes                                                 -->
   <!-- =============================================================== -->
 
-  <!-- Yaw dump --> 
+  <!-- Yaw dump -->
   <pid-controller>
     <name>YD</name>
     <debug>false</debug>
@@ -523,15 +523,15 @@
       <prop>/controls/flight/rudder</prop>
     </output>
     <config>
-      <Kp>0.5</Kp>        <!-- proportional gain -->
-      <beta>1</beta>      <!-- input value weighing factor -->
-      <alpha>0.1</alpha>  <!-- low pass filter weighing factor -->
-      <gamma>0</gamma>    <!-- input value weighing factor for -->
+      <Kp>0.5</Kp> <!-- proportional gain -->
+      <beta>1</beta> <!-- input value weighing factor -->
+      <alpha>0.1</alpha> <!-- low pass filter weighing factor -->
+      <gamma>0</gamma> <!-- input value weighing factor for -->
                           <!-- unfiltered derivative error -->
-      <Ti>2</Ti>          <!-- integrator time -->
-      <Td>0.5</Td>        <!-- derivator time -->
+      <Ti>2</Ti> <!-- integrator time -->
+      <Td>0.5</Td> <!-- derivator time -->
       <u_min>-0.7</u_min> <!-- minimum output clamp -->
-      <u_max>0.7</u_max>  <!-- maximum output clamp -->
+      <u_max>0.7</u_max> <!-- maximum output clamp -->
     </config>
   </pid-controller>
   

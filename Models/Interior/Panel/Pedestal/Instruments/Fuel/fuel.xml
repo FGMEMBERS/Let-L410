@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -20,14 +20,14 @@
     <object-name>fueloffL</object-name>
     <property>/instrumentation/engine/indicated-cutoffl-norm</property>
     <type>rotate</type>
-    <factor>   -40 </factor>
-    <offset-deg> 0 </offset-deg>
-    <min-deg>  -40 </min-deg>
-    <max-deg>   40 </max-deg>
+    <factor>-40</factor>
+    <offset-deg>0</offset-deg>
+    <min-deg>-40</min-deg>
+    <max-deg>40</max-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -35,14 +35,14 @@
     <type>rotate</type>
     <object-name>fueloffR</object-name>
     <property>/instrumentation/engine/indicated-cutoffr-norm</property>
-    <factor>   -40 </factor>
-    <offset-deg> 0 </offset-deg>
-    <min-deg>  -40 </min-deg>
-    <max-deg>   40 </max-deg>
+    <factor>-40</factor>
+    <offset-deg>0</offset-deg>
+    <min-deg>-40</min-deg>
+    <max-deg>40</max-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -51,14 +51,14 @@
     <type>rotate</type>
     <object-name>fuelL</object-name>
     <property>/controls/engines/engine[0]/cutoff-emerg-cmd</property>
-    <factor>      80 </factor>
-    <offset-deg> -40 </offset-deg>
-    <min-deg>    -40 </min-deg>
-    <max-deg>     40 </max-deg>
+    <factor>80</factor>
+    <offset-deg>-40</offset-deg>
+    <min-deg>-40</min-deg>
+    <max-deg>40</max-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -66,14 +66,14 @@
     <type>rotate</type>
     <object-name>fuelR</object-name>
     <property>/controls/engines/engine[1]/cutoff-emerg-cmd</property>
-    <factor>      80 </factor>
-    <offset-deg> -40 </offset-deg>
-    <min-deg>    -40 </min-deg>
-    <max-deg>     40 </max-deg>
+    <factor>80</factor>
+    <offset-deg>-40</offset-deg>
+    <min-deg>-40</min-deg>
+    <max-deg>40</max-deg>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 

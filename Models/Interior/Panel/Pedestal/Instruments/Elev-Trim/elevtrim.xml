@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
@@ -19,19 +19,19 @@
     <type>rotate</type>
     <object-name>elev_trim_indic</object-name>
     <property>/controls/flight/elevator-trim</property>
-    <factor>   -50 </factor>
-    <offset-deg> 0 </offset-deg>
-    <min-deg>  -90 </min-deg>
-    <max-deg>   90 </max-deg>
+    <factor>-50</factor>
+    <offset-deg>0</offset-deg>
+    <min-deg>-90</min-deg>
+    <max-deg>90</max-deg>
     <center>
-      <x-m>  0.21050 </x-m>
-      <y-m> -0.14646 </y-m>
-      <z-m> -0.20873 </z-m>
+      <x-m>0.21050</x-m>
+      <y-m>-0.14646</y-m>
+      <z-m>-0.20873</z-m>
     </center>
     <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <x>0</x>
+      <y>1</y>
+      <z>0</z>
     </axis>
   </animation>
 
@@ -39,37 +39,37 @@
     <type>rotate</type>
     <object-name>trim_ru</object-name>
     <property>/controls/switches/rudder-trim-sw</property>
-    <factor>    -20 </factor>
-    <offset-deg> 20 </offset-deg>
+    <factor>-20</factor>
+    <offset-deg>20</offset-deg>
     <center>
-      <x-m>  0.44134 </x-m>
-      <y-m> -0.15021 </y-m>
-      <z-m> -0.19427 </z-m> 
+      <x-m>0.44134</x-m>
+      <y-m>-0.15021</y-m>
+      <z-m>-0.19427</z-m>
     </center>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
-  </animation> 
+  </animation>
 
   <animation>
     <type>rotate</type>
     <object-name>trim_ai</object-name>
     <property>/controls/switches/aileron-trim-sw</property>
-    <factor>    -20 </factor>
-    <offset-deg> 20 </offset-deg>
+    <factor>-20</factor>
+    <offset-deg>20</offset-deg>
     <center>
-     <x-m>  0.28418 </x-m>
-     <y-m> -0.15010 </y-m>
-     <z-m> -0.19429 </z-m> 
+     <x-m>0.28418</x-m>
+     <y-m>-0.15010</y-m>
+     <z-m>-0.19429</z-m>
     </center>
     <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
+      <x>1</x>
+      <y>0</y>
+      <z>0</z>
     </axis>
-  </animation> 
+  </animation>
 
 </PropertyList>
 
